@@ -1,11 +1,14 @@
 body{
-    background-color: #30475e;
+    background-color:#283747;
     height: 100%;
 
 }
-h1, h3, p{
+h1, h3{
     /* font-family: 'Roboto Slab'; */
-    color:#ececec;
+    color:#fdf6e3;
+}
+a{
+    color:#586e75;
 }
 .header, .projects{
     margin: 20px
@@ -13,7 +16,7 @@ h1, h3, p{
 .projects{
     display: flex;
     flex-flow: column;
-    background-color:#283747;
+    background-color:#fdf6e3;
     border-radius: 5px;
     padding: 15px;
     height: 100%;
