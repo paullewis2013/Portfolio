@@ -4,7 +4,7 @@ body{
 
 }
 h1, h3, p{
-    font-family: 'Roboto Slab';
+    /* font-family: 'Roboto Slab'; */
     color:#ececec;
 }
 .header, .projects{
