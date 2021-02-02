@@ -4,7 +4,8 @@ new Vue({
     el: "#projectsDiv",
     data() {
         return {
-            tab: "Projects"
+            tab: "<Projects>",
+            bottom_tab: "</Projects>"
         }
     }
 });

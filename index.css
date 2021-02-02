@@ -1,4 +1,4 @@
-body{
+body, html{
     background-color:#283747;
     height: 100%;
 
@@ -8,16 +8,30 @@ h1, h3{
     color:#fdf6e3;
 }
 a{
-    color:#586e75;
+    width: 50%;
+    padding: 0.5%;
+    padding-left: 1%;
+    color:#000000;
+    background-color: 	#839496;
+    border-radius: 15px;
 }
 .header, .projects{
     margin: 20px
 }
+.footer{
+    text-align: center;
+}
 .projects{
-    display: flex;
-    flex-flow: column;
     background-color:#fdf6e3;
     border-radius: 5px;
     padding: 15px;
-    height: 100%;
+    height: 65%;
+}
+.links{
+    display: flex;
+    flex-flow: column;
+    margin-left: 40px;
+}
+#thumbnail_1{
+    height: 120px;
 }
