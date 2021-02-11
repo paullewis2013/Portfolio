@@ -44,6 +44,8 @@ img{
     background-color: #657b83;
     border-radius: 10px;
 }
-a:hover{
-    text-decoration: none;
+.col-3:hover{
+    background-color: #f37a48;
 }
+
+
