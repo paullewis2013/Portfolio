@@ -2,6 +2,8 @@ body, html{
     background-color:#283747;
     height: 100%;
     overflow: hidden;
+    padding: 0px;
+    margin: 0px;
 }
 h1, h3{
     font-family: monospace;
@@ -54,11 +56,17 @@ h1, h3{
 }
 #linkedIn{
     position: fixed;
-    top: 10px;
+    top: 1.5%;
     right: 1.5%;
     visibility: hidden;
     animation: appear 4s 3s forwards;
+    filter: invert(91%) sepia(2%) saturate(2071%) hue-rotate(359deg) brightness(107%) contrast(99%);
 }
+#linkedIn:hover{
+    filter: invert(72%) sepia(39%) saturate(2239%) hue-rotate(319deg) brightness(100%) contrast(93%);
+}
+
+
 .projects{
     visibility: hidden;
     animation: appear 4s 3s forwards;
@@ -80,10 +88,12 @@ h1, h3{
 }
 .projects{
     background-color:#fdf6e3;
+    margin: 1.5%;
     border-radius: 5px;
     padding-left: 15px;
     padding-top: 10px;
-    height: 75%;
+    padding-bottom: 5px;
+    /* height: 75%; */
 }
 .links{
     display: flex;
