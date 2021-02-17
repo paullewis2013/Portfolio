@@ -4,9 +4,45 @@ body, html{
     overflow: hidden;
 }
 h1, h3{
-    /* font-family: 'Roboto Slab'; */
+    font-family: monospace;
     color:#fdf6e3;
+    overflow: hidden;
+    white-space: nowrap;
 }
+
+/* for title */
+@keyframes type1{
+    0%{
+        width:0ch;
+    }
+    100%{
+        width:33ch;
+        opacity: 100%;
+    }
+}
+@keyframes type2{
+    0%{
+        width:0ch;
+    }
+    100%{
+        width:11ch;
+        opacity: 100%;
+    }
+}
+
+#title{
+    animation: type1 2s steps(32) forwards;
+    border-right: 4px solid white;
+    width: 32ch;
+    opacity: 0%;
+}
+#name{
+    animation: type2 0.5s steps(10) 2.2s forwards;
+    border-right: 4px solid white;
+    width: 10ch;
+    opacity: 0%;
+}
+
 .row{
     width: 60%;
     padding: 0.5%;
