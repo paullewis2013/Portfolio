@@ -15,7 +15,7 @@ const geometry5 = new THREE.SphereGeometry( 1.5, 16, 16 );
 const geometry6 = new THREE.SphereGeometry( 2, 16, 16 );
 
 
-const material = new THREE.MeshBasicMaterial( { color: 0xffffff, wireframe: true } );
+const material = new THREE.MeshBasicMaterial( { color: 	randColor(), wireframe: true } );
 
 
 var specialCubeArr = []
@@ -35,7 +35,7 @@ for(let i = 0; i < 20; i++){
     }
     // specialCubeArr[i] = new THREE.Mesh( geometry3, material );
     specialCubeArr[i].position.x = -45 + -i * 5
-    specialCubeArr[i].position.y = 8 + Math.random() * 20;
+    specialCubeArr[i].position.y = 8 + Math.random() * 28;
     specialCubeArr[i].position.z = -20 + Math.random() * 35;
 
     scene.add( specialCubeArr[i] );
@@ -108,7 +108,7 @@ function randColor(){
         // 0xd33682,
         // 0x6c71c4,
         // 0x268bd2,
-        // 0x2aa198,
+        0x2aa198,
         // 0x859900
     ]
 
@@ -125,7 +125,7 @@ const animate = function () {
 
     for(let i = 0; i < specialCubeArr.length; i++){
         specialCubeArr[i].rotation.x += 0.02;
-        specialCubeArr[i].position.x += 0.05;
+        specialCubeArr[i].position.x += 0.025;
 
         if(specialCubeArr[i].position.x > 45){
             specialCubeArr[i].position.x -= 90
@@ -149,7 +149,7 @@ const animate = function () {
         for(let j= 0; j < cubeArr[i].length; j++){
 
             //update y position with random noise
-            cubeArr[i][j].position.y = -3 + 10 * noise.simplex3(i/20, j/20, frameNum/1000)
+            cubeArr[i][j].position.y = -5 + 12 * noise.simplex3(i/20, j/20, frameNum/1000)
 
             if(Math.random() < 0.0002){
                 let tempColor = randColor()
