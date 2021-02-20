@@ -55,7 +55,7 @@ h1, h3{
     0%{
         opacity: 0%;
         visibility: visible;
-        margin-top: 100%;
+        margin-top: 200%;
         z-index: 0;
     }
     /* 5%{
@@ -63,22 +63,22 @@ h1, h3{
         opacity: 100%;
         visibility: visible;
     } */
-    10%{
+    /* 10%{
         margin-top: 95%;
         opacity: 100%;
         visibility: visible;
-    }
-    50%{
+    } */
+    /* 50%{
         margin-top: 50%;
-    }
+    } */
     75%{
         margin-top: -2%;
-        opacity: 100%;
+        opacity: 90%;
         visibility: visible;
     }
     90%{
         margin-top: 1.25%;
-        opacity: 100%;
+        opacity: 90%;
         visibility: visible;
     }
     /* 96%{
@@ -89,7 +89,7 @@ h1, h3{
     100%{
         margin-top: 0%;
         z-index: 2;
-        opacity: 100%;
+        opacity: 90%;
         visibility: visible;
     }
 }
@@ -160,6 +160,7 @@ h1, h3{
 }
 .thumbnail{
     height: 120px;
+    width: auto;
 }
 img{
     display: block;
