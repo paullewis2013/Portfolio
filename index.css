@@ -77,7 +77,7 @@ h1, h3{
         visibility: visible;
     }
     90%{
-        margin-top: .75%;
+        margin-top: 1.25%;
         opacity: 100%;
         visibility: visible;
     }
@@ -124,7 +124,7 @@ h1, h3{
     /* font-family: 'Lato', sans-serif; */
     visibility: hidden;
     /* z-index: -1; */
-    animation: arrise 4.5s 3s forwards;
+    animation: arrise 5s 3s forwards;
     width:70%;
 }
 

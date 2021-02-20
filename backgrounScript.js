@@ -151,11 +151,11 @@ const animate = function () {
             //update y position with random noise
             cubeArr[i][j].position.y = -5 + 12 * noise.simplex3(i/20, j/20, frameNum/1000)
 
-            if(Math.random() < 0.0002){
+            if(Math.random() < 0.0001){
                 let tempColor = randColor()
                 let tempMat = new THREE.MeshBasicMaterial( { color: tempColor} );
                 cubeArr[i][j].material = tempMat
-            }else if(Math.random() < 0.03){
+            }else if(Math.random() < 0.02){
                 let tempColor = 0xffffff
                 let tempMat = new THREE.MeshLambertMaterial( { color: tempColor} );
                 cubeArr[i][j].material = tempMat
