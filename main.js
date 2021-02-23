@@ -9,6 +9,26 @@ new Vue({
     }
 });
 
+setTimeout(iconAnim, 5000)
+
+
+function iconAnim(){
+    document.getElementById("linkedIn").style.visibility = "visible";
+    document.getElementById("github").style.visibility = "visible";
+
+    for(let i = 1; i < 21; i++){
+        setTimeout(increaseIconOpacity, 100 * i, i)
+    }
+}
+
+function increaseIconOpacity(i){
+    console.log(document.getElementById("linkedIn").style.opacity)
+    document.getElementById("linkedIn").style.opacity = 0.05 * i;
+    document.getElementById("github").style.opacity = 0.05 * i;
+}
+
+
+
 
 //cursor animation at beginning
 function showCursor(){

@@ -80,6 +80,15 @@ h1, h3{
         visibility: visible;
     }
 }
+@keyframes bounce {
+    0% { transform: scale(1, 1);}
+    30% { transform: scale(1.25, 0.75); }
+    40% { transform: scale(0.75, 1.25); }
+    50% { transform: scale(1.15, 0.85); }
+    65% { transform: scale(0.95, 1.05); }
+    75% { transform: scale(1.05, 0.95); }
+    100% { transform: scale(1, 1);}
+}
 
 
 
@@ -97,15 +106,15 @@ h1, h3{
 }
 #linkedIn{
     position: fixed;
-    /* height: 15%;
-    width: 15%; */
     top: 2%;
     right: 1.5%;
     visibility: hidden;
-    animation: appear 4s 5s forwards;
+    opacity: 0;
+    /* animation: appear 4s 5s forwards; */
     filter: invert(91%) sepia(2%) saturate(2071%) hue-rotate(359deg) brightness(107%) contrast(99%);
 }
 #linkedIn:hover{
+    animation: bounce 1.5s ease;
     filter: invert(72%) sepia(39%) saturate(2239%) hue-rotate(319deg) brightness(100%) contrast(93%);
 }
 
@@ -114,10 +123,12 @@ h1, h3{
     top: 2%;
     right: 4.5%;
     visibility: hidden;
-    animation: appear 4s 5s forwards;
+    opacity: 0;
+    /* animation: appear 4s 5s forwards; */
     filter: invert(91%) sepia(2%) saturate(2071%) hue-rotate(359deg) brightness(107%) contrast(99%);
 }
 #github:hover{
+    animation: bounce 1.2s ease;
     filter: invert(72%) sepia(39%) saturate(2239%) hue-rotate(319deg) brightness(100%) contrast(93%);
 }
 
