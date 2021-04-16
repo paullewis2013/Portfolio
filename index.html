@@ -2,19 +2,24 @@
 <!doctype html>
 
 <html lang="en">
+    
     <head>
-    <meta charset="utf-8">
+        <meta charset="utf-8">
 
-    <title>Portfolio</title>
-    <meta name="description" content="Portfolio">
-    <meta name="author" content="Paul Lewis">
+        <title>Portfolio</title>
+        <meta name="description" content="A Portfolio of programming projects">
+        <meta name="author" content="Paul Lewis">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="index.css">
+        <!-- Sets preview image for website -->
+        <meta property="og:image" content="imgs/paul_circle.png">
+        <meta property="twitter:image" content="imgs/paul_circle.png">
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap" rel="stylesheet">
 
     </head>
 
@@ -38,69 +43,39 @@
        
         <!-- Projects -->
         <div class="projects" id="projectsDiv">
-            <p>{{ tab }}</p>
-            
-            <div class="links">
-
-                <div class="row">
-                    
-                    <div class="col-3">
-                        <a href="https://paullewis2013.github.io/ChordIdentifier/"> 
-                            <img src="imgs/chord_thumbnail.png" alt="ChordIdentifier Image" class="thumbnail">
-                        </a>
-                    </div>
-                    
-                    <div class="col-9">
-                        <h5>Chord Identifier</h5>
-                        <li>Custom input interface for selecting a musical key and inputting notes on a musical staff</li>
-                        <li>Calculates possible chord names from a set of given notes on staff</li>
-                        <li>Bauhaus inspired design and color palette</li>
-                    </div>
-
-                    
-                </div><br>
-
-                <div class="row">
-                    
-                    <div class="col-3">
-                        <a href="https://paullewis2013.github.io/PerlinNoisePlayground/"> 
-                            <img src="imgs/Perlin_thumbnail.png" alt="Perlin Image" class="thumbnail">
-                        </a>
-                    </div>
-                    
-                    <div class="col-9">
-                        <h5>Perlin Noise Study</h5>
-                        <li>Displays 3D perlin noise on a 64x64 array of spheres</li>
-                        <li>Adjustable sliders allow user to control parameters of Perlin noise</li>
-                        <li>Same effect as used in Portfolio background</li>
-                    </div>
-
-                    
-                </div><br>
-
-                <div class="row">
-                    
-                    <div class="col-3">
-                        <a href="https://paullewis2013.github.io/D3Project/">
-                            <img src="imgs/catan_thumbnail.png" alt="Catan Image" class="thumbnail">
-                        </a>
-                    </div>
-                    
-                    <div class="col-9">
-                        <h5>Catan Clone (in progress)</h5>
-                        <li>An interactive version of the board game Catan</li>
-                        <li>AI controlled players capable of placing opening settlements competitively</li>
-                        <li>Analysis of game data in real time</li>
-                    </div>
-
-                </div><br>
-
-                
-
+            <!-- <p>{{ tab }}</p> -->
+            <div class="row" id="buttonRow">
+                <div class="col-6">
+                    <button class="btn btn-outline-dark" onclick="chooseA()">About</button>
+                </div>
+                <div class="col-6">
+                    <button class="btn btn-outline-dark" onclick="chooseP()">Projects</button>
+                </div>
+                <!-- <div class="col-4">
+                    <button class="btn btn-outline-dark" onclick="chooseS()">Skills</button>
+                </div> -->
             </div>
+            
+            
+            <!-- Updated with javascript when buttons clicked-->
+            <div id="content">
+               
+            </div>
+            
 
             <!-- <span id="bottomtab"><p>{{ bottom_tab }}</p></span> -->
         </div>
+
+        <div class="scene">
+            <div id="backgroundCard1">
+                
+            </div>
+            
+            <div id="backgroundCard2">
+                
+            </div>
+        </div>
+        
 
         <!-- <div class="footer">
             <hr>
@@ -113,7 +88,7 @@
         <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
 
         <!-- Production Script -->
-        <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
 
         <script src='perlin.js'></script>
         <script src="three.js"></script>
@@ -125,3 +100,4 @@
 </html>
 <!-- Version 1 This is a comment from the first time I edited this file on 1-28-21-->
 <!-- Version 2 This is a comment from when I added the perlin noise project and background 2-21-21 -->
+<!-- Version 3 This is a comment from when I added the sudoku project and the about tab 4-16-21 -->

@@ -1,7 +1,10 @@
-body, html{
-    z-index: 0;
+html{
+    height: 100vh;
+    width: 100vw;
+}
+body{
     background-color:#283747;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     padding: 0px;
     margin: 0px;
@@ -12,14 +15,20 @@ h1, h3{
     overflow: hidden;
     white-space: nowrap;
 }
-
+h4{
+    /* border: 1px solid black; */
+    padding: 20px;
+    color:#fdf6e3;
+    border-radius: 5px;
+    background-color: #283747;
+}
 #canvas{
     z-index: 0;
     margin: 0;
     padding: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
 }
 
 /* CSS Animations */
@@ -56,7 +65,7 @@ h1, h3{
         opacity: 0%;
         visibility: visible;
         margin-top: 200%;
-        z-index: 0;
+        /* z-index: 0; */
     }
     75%{
         margin-top: -2%;
@@ -75,11 +84,36 @@ h1, h3{
     } */
     100%{
         margin-top: 0%;
-        z-index: 2;
+        /* z-index: 2; */
+        opacity: 100%;
+        visibility: visible;
+    }
+}
+@keyframes arriseFixed{
+    0%{
+        opacity: 0%;
+        visibility: visible;
+        top: 200%;
+        /* z-index: 0; */
+    }
+    75%{
+        top: 13%;
+        opacity: 90%;
+        visibility: visible;
+    }
+    90%{
+        top: 16.25%;
+        opacity: 90%;
+        visibility: visible;
+    }
+    100%{
+        top: 15%;
+        /* z-index: 0; */
         opacity: 90%;
         visibility: visible;
     }
 }
+
 @keyframes bounce {
     0% { transform: scale(1, 1);}
     30% { transform: scale(1.25, 0.75); }
@@ -89,6 +123,7 @@ h1, h3{
     75% { transform: scale(1.05, 0.95); }
     100% { transform: scale(1, 1);}
 }
+
 
 
 
@@ -128,51 +163,53 @@ h1, h3{
     filter: invert(91%) sepia(2%) saturate(2071%) hue-rotate(359deg) brightness(107%) contrast(99%);
 }
 #github:hover{
-    animation: bounce 1.2s ease;
+    animation: bounce 1.5s ease;
     filter: invert(72%) sepia(39%) saturate(2239%) hue-rotate(319deg) brightness(100%) contrast(93%);
 }
 
-.projects{
-    /* font-family: 'Lato', sans-serif; */
-    visibility: hidden;
-    /* z-index: -1; */
-    animation: arrise 5s 3s forwards;
-    width:70%;
+.col-4, .col-6{
+    display: flex;
+    justify-content: center;
 }
 
-.row{
+.projectrow{
     opacity: 1;
-    width: 98%;
+    width: 97%;
     padding: 0.5%;
-    padding-left: 1%;
-    color:#000000;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    /* color:#000000; */
     background-color: 	#839496;
     border-radius: 15px;
 }
-.header, .projects{
-    margin: 20px
+.header{
+    padding: 20px
 }
 .footer{
     text-align: center;
 }
 .projects{
     background-color:#fdf6e3;
+    /* font-family: 'Lato', sans-serif; */
+    visibility: hidden;
+    animation: arrise 5s forwards;
+    width:70%;
+    height:78%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    /* height: 75%; */
+    padding-top: 15px;
+    /* z-index: inherit; */
+    overflow: auto;
 }
 .links{
     display: flex;
     flex-flow: column;
-    margin-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .thumbnail{
-    height: 120px;
-    width: auto;
+    width: 100%;
 }
 img{
     display: block;
@@ -190,5 +227,60 @@ img{
 #bottomtab{
     vertical-align: bottom;
 }
+#buttonRow{
+    margin-bottom: 15px;
+}
+#projectDiv{
+    position: absolute;
+    z-index: 2;
+    padding: 0px;
+    
+}
 
+#content{
+    padding: 10px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+#backgroundCard1, #backgroundCard2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+    border-radius: 5px;
+    transform-origin: center;
+    z-index: -1;
+    animation: arriseFixed 5s forwards;
+    transform-style: preserve-3d;
+    background-color: #fdf6e3;
+}
+#backgroundCard1{
+    transform: rotateY(-120deg) translateZ(90vw);
+    width: 70vw;
+    height: 68vh;
+}
+#backgroundCard2{
+    transform: translateX(30vw) rotateY(120deg) translateZ(90vw);
+    width: 70vw;
+    height: 68vh;
+}
+.scene {
+    position: fixed;
+    z-index: -1;
+    width:100vw;
+    height:100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    perspective: 90vw;
+    perspective-origin: center;
+    margin: 0%;
+    padding: 0%;
+    transform-origin: center;
+}
 
