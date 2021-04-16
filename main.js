@@ -78,7 +78,7 @@ var projectsHTML = `
             
     <div class="col-3">
         <a href="https://paullewis2013.github.io/Sudoku/">
-            <img src="imgs/Sudoku.png" alt="Sudoku Image" class="thumbnail">
+            <img src="imgs/sudoku.png" alt="Sudoku Image" class="thumbnail">
         </a>
     </div>
 
