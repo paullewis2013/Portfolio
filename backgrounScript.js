@@ -15,7 +15,7 @@ const geometry5 = new THREE.SphereGeometry( 1.5, 16, 16 );
 const geometry6 = new THREE.SphereGeometry( 2, 16, 16 );
 
 
-const material = new THREE.MeshBasicMaterial( { color: 	randColor(), wireframe: true } );
+const material = new THREE.MeshBasicMaterial( { color: 	0xf58b5f, wireframe: true } );
 
 
 var specialCubeArr = []

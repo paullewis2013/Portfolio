@@ -4,48 +4,53 @@
 <html lang="en">
     
     <head>
+        <!-- Standard metadata -->
         <meta charset="utf-8">
-
         <title>Portfolio</title>
-        <meta name="description" content="A Portfolio of programming projects">
+        <meta name="description" content="A Portfolio where I showcase some of my recent projects">
         <meta name="author" content="Paul Lewis">
 
-        <!-- Sets preview image for website -->
+        <!-- Sets open graph protocol metadata for website -->
         <meta property="og:title" content="Paul Lewis Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://paullewis2013.github.io/Portfolio/" />
-        <meta property="og:image" content="https://paullewis2013.github.io/Portfolio/imgs/paul_circle.png" />
+        <meta property="og:image" content="imgs/paul_circle.png" />
 
+        <!-- CSS and Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="index.css">
 
-        <!-- fonts -->
+        <!-- Sets icon displayed in tab for website -->
+        <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+        <link rel="icon" href="imgs/favicon.png" type="image/x-icon">
+
+        <!-- google fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap" rel="stylesheet">
 
     </head>
 
     <body>
-
+        <!-- Background canvas controlled by backgrounScript.js -->
         <canvas id="canvas"></canvas>
 
-        <!-- header -->
+        <!-- Name and title -->
         <div class="header">
             <h1 id="title">Programming and Design Portfolio</h1>
             <h3 id="name">Paul Lewis</h3>
         </div>
 
+        <!-- Icons in top right corner -->
         <a href="https://www.linkedin.com/in/PaulLewisPGH" id="linkedIn"> 
             <img src="imgs/linkedIn.svg">
         </a>
-
         <a href="https://github.com/paullewis2013" id="github"> 
             <img src="imgs/github.svg">
         </a>
        
-        <!-- Projects -->
+        <!-- Main Content -->
         <div class="projects" id="projectsDiv">
-            <!-- <p>{{ tab }}</p> -->
+
             <div class="row" id="buttonRow">
                 <div class="col-6">
                     <button class="btn btn-outline-dark" onclick="chooseA()">About</button>
@@ -64,34 +69,16 @@
                
             </div>
             
-
-            <!-- <span id="bottomtab"><p>{{ bottom_tab }}</p></span> -->
         </div>
 
+        <!-- Floating things in background -->
         <div class="scene">
-            <div id="backgroundCard1">
-                
-            </div>
+            <div id="backgroundCard1"></div>
             
-            <div id="backgroundCard2">
-                
-            </div>
+            <div id="backgroundCard2"></div>
         </div>
-        
 
-        <!-- <div class="footer">
-            <hr>
-            <h6>Paul Lewis 2021</h6>
-        </div> -->
-
-       
-
-        <!-- This is a development script unoptimized for production -->
-        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
-
-        <!-- Production Script -->
-        <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
-
+        <!-- scripts loaded here -->
         <script src='perlin.js'></script>
         <script src="three.js"></script>
 
