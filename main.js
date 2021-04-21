@@ -75,6 +75,23 @@ var projectsHTML = `
 <div class="links">
 
     <div class="row projectrow">
+                
+    <div class="col-3">
+        <a href="https://paullewis2013.github.io/GameOfLife/">
+            <img src="imgs/GOL.png" alt="Game of Life Image" class="thumbnail">
+        </a>
+    </div>
+
+    <div class="col-9">
+        <h5>Cellular Automata Study</h5>
+        <li>Implemented Conway's Game of Life in JavaScript</li>
+        <li>3D visualization displays how simulation has evolved over time</li>
+        <li>Fine tuned starting conditions for better results</li>
+    </div>
+
+    </div><br>
+
+    <div class="row projectrow">
             
     <div class="col-3">
         <a href="https://paullewis2013.github.io/Sudoku/">
