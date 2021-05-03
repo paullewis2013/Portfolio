@@ -121,7 +121,7 @@ var frameNum = 0
 const animate = function () {
 
     frameNum++;
-    requestAnimationFrame( animate );
+    // requestAnimationFrame( animate );
 
     for(let i = 0; i < specialCubeArr.length; i++){
         specialCubeArr[i].rotation.x += 0.02;
@@ -166,5 +166,5 @@ const animate = function () {
     renderer.render( scene, camera );
 };
 
-animate();
-
+// animate();
+var animateInterval = setInterval(animate, 20)
