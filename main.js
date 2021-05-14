@@ -1,13 +1,7 @@
-//VUE
-// new Vue({
-//     el: "#projectsDiv",
-//     data() {
-//         return {
-//             tab: "<Projects>",
-//             bottom_tab: "</Projects>"
-//         }
-//     }
-// });
+//fixes issue with refreshing page
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}
 
 setTimeout(iconAnim, 3000)
 
