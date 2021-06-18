@@ -31,44 +31,47 @@
     </head>
 
     <body>
-        <!-- Background canvas controlled by backgrounScript.js -->
-        <canvas id="canvas"></canvas>
+        
+        <div id="main">
+            <!-- Background canvas controlled by backgrounScript.js -->
+            <canvas id="canvas"></canvas>
 
-        <!-- Name and title -->
-        <div class="header">
-            <h1 id="title">Programming and Design Portfolio</h1>
-            <h3 id="name">Paul Lewis</h3>
-        </div>
-
-        <!-- Icons in top right corner -->
-        <a href="https://www.linkedin.com/in/PaulLewisPGH" id="linkedIn"> 
-            <img src="imgs/linkedIn.svg">
-        </a>
-        <a href="https://github.com/paullewis2013" id="github"> 
-            <img src="imgs/github.svg">
-        </a>
-       
-        <!-- Main Content -->
-        <div class="projects">
-
-            <div class="row" id="buttonRow">
-                <div class="col-6">
-                    <button class="btn btn-outline-dark" onclick="chooseA()">About</button>
-                </div>
-                <div class="col-6">
-                    <button class="btn btn-outline-dark" onclick="chooseP()">Projects</button>
-                </div>
-                <!-- <div class="col-4">
-                    <button class="btn btn-outline-dark" onclick="chooseS()">Skills</button>
-                </div> -->
+            <!-- Name and title -->
+            <div id="header">
+                <h1 id="title">Programming and Design Portfolio</h1>
+                <h3 id="name">Paul Lewis</h3>
             </div>
-            
-            
-            <!-- Updated with javascript when buttons clicked-->
-            <div id="content">
-               
+
+            <!-- Icons in top right corner -->
+            <a href="https://www.linkedin.com/in/PaulLewisPGH" id="linkedIn"> 
+                <img src="imgs/linkedIn.svg">
+            </a>
+            <a href="https://github.com/paullewis2013" id="github"> 
+                <img src="imgs/github.svg">
+            </a>
+        
+            <!-- Main Content -->
+            <div class="projects">
+
+                <div class="row" id="buttonRow">
+                    <div class="col-6">
+                        <button class="btn btn-outline-dark" onclick="chooseA()">About</button>
+                    </div>
+                    <div class="col-6">
+                        <button class="btn btn-outline-dark" onclick="chooseP()">Projects</button>
+                    </div>
+                    <!-- <div class="col-4">
+                        <button class="btn btn-outline-dark" onclick="chooseS()">Skills</button>
+                    </div> -->
+                </div>
+                
+                
+                <!-- Updated with javascript when buttons clicked-->
+                <div id="content">
+                
+                </div>
             </div>
-            
+
         </div>
 
         <!-- Footer with some site information -->

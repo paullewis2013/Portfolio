@@ -69,7 +69,24 @@ var projectsHTML = `
 <div class="links">
 
     <div class="row projectrow">
-                
+    
+    <div class="col-3">
+        <a href="https://paullewis2013.github.io/Fractals/">
+            <img src="imgs/mandelbrot.png" alt="Mandelbrot Image" class="thumbnail">
+        </a>
+    </div>
+
+    <div class="col-9">
+        <h5>Mandelbrot Set</h5>
+        <li>Plotted the mandelbrot set with color gradient corresponding to time to diverge</li>
+        <li>Added ability to zoom in on interesting areas of mandelbrot set to view them in greater detail</li>
+        <li>Created ability to sync up animation to match the beats per minute of a song</li>
+    </div>
+
+    </div><br>
+
+    <div class="row projectrow">
+
     <div class="col-3">
         <a href="https://paullewis2013.github.io/GameOfLife/">
             <img src="imgs/GOL.png" alt="Game of Life Image" class="thumbnail">
