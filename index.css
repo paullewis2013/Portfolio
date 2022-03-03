@@ -3,7 +3,8 @@ html{
     width: 100vw;
 }
 body{
-    background-color:#f58b5f;
+    /* background-color:#f58b5f; */
+    background-color: #283747;
     height: 100vh;
     overflow-x: hidden;
     /* overflow-y: hidden; */
@@ -28,11 +29,12 @@ h4{
     margin: 0;
     padding: 0;
     position: fixed;
+    bottom: 0;
     /* position: sticky;
     position: -webkit-sticky; /* safari */
     /* top: 0; */ 
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
 }
 
 /* CSS Animations */
@@ -141,7 +143,7 @@ h4{
     opacity: 0%;
 }
 #main{
-    background-color: #283747;
+    /* background-color: #283747; */
     position: relative;
     padding-bottom: 10vh;
     margin: 0;

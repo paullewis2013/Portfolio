@@ -31,9 +31,8 @@
     </head>
 
     <body>
-        
         <div id="main">
-            <!-- Background canvas controlled by backgrounScript.js -->
+            <!-- Background canvas controlled by canvas.js -->
             <canvas id="canvas"></canvas>
 
             <!-- Name and title -->
@@ -54,50 +53,44 @@
             <div class="projects">
 
                 <div class="row" id="buttonRow">
-                    <div class="col-6">
+                    <div class="col-4">
                         <button class="btn btn-outline-dark" onclick="chooseA()">About</button>
                     </div>
-                    <div class="col-6">
+                    <div class="col-4">
                         <button class="btn btn-outline-dark" onclick="chooseP()">Projects</button>
                     </div>
-                    <!-- <div class="col-4">
+                    <div class="col-4">
                         <button class="btn btn-outline-dark" onclick="chooseS()">Skills</button>
-                    </div> -->
+                    </div>
                 </div>
-                
                 
                 <!-- Updated with javascript when buttons clicked-->
-                <div id="content">
-                
-                </div>
+                <div id="content"></div>
             </div>
-
         </div>
 
         <!-- Footer with some site information -->
         <div id="footer">
 
             <div class="row footer-row">
+                <!-- right column -->
                 <div class="col-4">
                     <p class="footer-text">Version: 1.0.3</p>
                 </div>
 
+                <!-- middle column -->
                 <div class="col-4">
                     <p class="footer-text">Paul Lewis, 2021</p>
                 </div>
 
             </div>
-            
         </div>
 
         <!-- scripts loaded here -->
-        <script src='perlin.js'></script>
-        <script src="three.js"></script>
+        <!-- driver.js injects other scripts from scripts folder -->
+        <script src='driver.js'></script>
 
-        <script src="main.js"></script>
-        <script src="backgrounScript.js"></script>
     </body>
-
 </html>
 <!-- Version 1 This is a comment from the first time I edited this file on 1-28-21-->
 <!-- Version 2 This is a comment from when I added the perlin noise project and background 2-21-21 -->
