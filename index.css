@@ -24,17 +24,39 @@ h4{
     border-radius: 5px;
     background-color: #283747;
 }
+
+#main{
+    /* background-color: #283747; */
+    top: 0;
+    position: relative;
+    overflow-y: scroll;
+    padding-bottom: 10vh;
+    margin: 0;
+    height: 100%;
+}
 #canvas{
-    z-index: 0;
+    z-index: -1;
     margin: 0;
     padding: 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     /* position: sticky;
     position: -webkit-sticky; /* safari */
     /* top: 0; */ 
     /* width: 100vw;
     height: 100vh; */
+}
+#canvasDiv{
+    z-index: -1;
+    top: 0;
+    position: sticky;
+    /* overflow-y: hidden; */
+    /* background-color: red; */
+    height: 100%;
+}
+#header{
+    margin-top: -50%;
+    padding: 20px;
 }
 
 /* CSS Animations */
@@ -142,12 +164,7 @@ h4{
     width: 10ch;
     opacity: 0%;
 }
-#main{
-    /* background-color: #283747; */
-    position: relative;
-    padding-bottom: 10vh;
-    margin: 0;
-}
+
 
 #github{
     position: fixed;
@@ -185,9 +202,7 @@ h4{
     background-color: 	#839496;
     border-radius: 15px;
 }
-#header{
-    padding: 20px;
-}
+
 
 .projects{
     background-color:#fdf6e3;

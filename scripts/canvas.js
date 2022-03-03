@@ -53,7 +53,7 @@ camera.position.y = 20;
 camera.rotation.x = 0;
 
 // const color = 0xFFFFFF;
-const skyColor =   0xdc322f; 
+const skyColor =    0xdc322f; 
 const groundColor = 0x6c71c4;
 const intensity = 0.4;
 // const light3 = new THREE.AmbientLight(color, intensity);
@@ -116,7 +116,6 @@ function randColor(){
 }
 
 var frameNum = 0
-
 
 const animate = function () {
 

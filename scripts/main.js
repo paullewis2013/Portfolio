@@ -72,7 +72,7 @@ var projectsHTML = `
     
     <div class="col-3">
         <a href="https://paullewis2013.github.io/Fractals/">
-            <img src="imgs/mandelbrot.png" alt="Mandelbrot Image" class="thumbnail">
+            <img src="imgs/tn_mandelbrot.png" alt="Mandelbrot Image" class="thumbnail">
         </a>
     </div>
 
@@ -89,7 +89,7 @@ var projectsHTML = `
 
     <div class="col-3">
         <a href="https://paullewis2013.github.io/GameOfLife/">
-            <img src="imgs/GOL.png" alt="Game of Life Image" class="thumbnail">
+            <img src="imgs/tn_conway.png" alt="Game of Life Image" class="thumbnail">
         </a>
     </div>
 
@@ -106,7 +106,7 @@ var projectsHTML = `
             
     <div class="col-3">
         <a href="https://paullewis2013.github.io/Sudoku/">
-            <img src="imgs/sudoku.png" alt="Sudoku Image" class="thumbnail">
+            <img src="imgs/tn_sudoku.png" alt="Sudoku Image" class="thumbnail">
         </a>
     </div>
 
@@ -123,7 +123,7 @@ var projectsHTML = `
         
     <div class="col-3">
         <a href="https://paullewis2013.github.io/PerlinNoisePlayground/"> 
-            <img src="imgs/Perlin_thumbnail.png" alt="Perlin Image" class="thumbnail">
+            <img src="imgs/tn_perlin.png" alt="Perlin Image" class="thumbnail">
         </a>
     </div>
     
@@ -141,7 +141,7 @@ var projectsHTML = `
         
         <div class="col-3">
             <a href="https://paullewis2013.github.io/ChordIdentifier/"> 
-                <img src="imgs/chord_thumbnail.png" alt="ChordIdentifier Image" class="thumbnail">
+                <img src="imgs/tn_chord.png" alt="ChordIdentifier Image" class="thumbnail">
             </a>
         </div>
         
@@ -159,7 +159,7 @@ var projectsHTML = `
         
         <div class="col-3">
             <a href="https://paullewis2013.github.io/D3Project/">
-                <img src="imgs/catan_thumbnail.png" alt="Catan Image" class="thumbnail">
+                <img src="imgs/tn_catan.png" alt="Catan Image" class="thumbnail">
             </a>
         </div>
         
