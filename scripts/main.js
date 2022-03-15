@@ -191,18 +191,31 @@ var aboutHTML = `
 // skills html as string
 var skillsHTML = `
 Skills<br>
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Bootstrap</li>
-    <li>JavaScript</li>
-    <li>Python</li>
-    <li>Java</li>
-    <li>C</li>
-    <li>SQL</li>
-    <li>Git</li>
-    <li>Unix</li>
+Languages (Programming)
+<ul class="skill_list">
+    <li><img src="imgs/dev_icons/c-line.svg" class="lang_icon"> C</li>
+    <li><img src="imgs/dev_icons/csharp-line.svg" class="lang_icon"> C#</li>
+    <li><img src="imgs/dev_icons/java-original.svg" class="lang_icon"> Java</li>
+    <li><img src="imgs/dev_icons/javascript-original.svg" class="lang_icon"> JavaScript</li>
+    <li><img src="imgs/dev_icons/python-original.svg" class="lang_icon"> Python</li>
+</ul>
 
+Languages (Data Science)
+<ul class="skill_list">
+    <li><img src="imgs/dev_icons/r-original.svg" class="lang_icon"> R</li>
+    <li><img src="imgs/dev_icons/sql.svg" class="lang_icon"> SQL</li>
+</ul>
+
+JavaScript Stack (Misc.)
+<ul class="skill_list">
+    <li><img src="imgs/dev_icons/d3js-original.svg" class="lang_icon"> D3.js</li>
+    <li><img src="imgs/dev_icons/nodejs-plain.svg" class="lang_icon"> Node.js</li>
+    <li><img src="imgs/dev_icons/npm-original.svg" class="lang_icon"> NPM</li>
+    <li><img src="imgs/dev_icons/electron-original.svg" class="lang_icon"> Electron</li>
+    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> Jest (learning)</li>
+    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> Three.js (learning)</li>
+    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> React (learning)</li>
+    <li><img src="imgs/dev_icons/typescript-plain.svg" class="lang_icon"> TypeScript (learning)</li>
 </ul>
 `
 
