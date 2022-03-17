@@ -204,6 +204,7 @@ Languages (Data Science)
 <ul class="skill_list">
     <li><img src="imgs/dev_icons/r-original.svg" class="lang_icon"> R</li>
     <li><img src="imgs/dev_icons/sql.svg" class="lang_icon"> SQL</li>
+    <li><img src="imgs/dev_icons/sql.svg" class="lang_icon"> Neo4j</li>
 </ul>
 
 JavaScript Stack (Misc.)
@@ -216,6 +217,25 @@ JavaScript Stack (Misc.)
     <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> Three.js (learning)</li>
     <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> React (learning)</li>
     <li><img src="imgs/dev_icons/typescript-plain.svg" class="lang_icon"> TypeScript (learning)</li>
+</ul>
+
+Design Languages and Software 
+<ul class="skill_list">
+    <li><img src="imgs/dev_icons/d3js-original.svg" class="lang_icon"> HTML</li>
+    <li><img src="imgs/dev_icons/nodejs-plain.svg" class="lang_icon"> CSS </li>
+    <li><img src="imgs/dev_icons/npm-original.svg" class="lang_icon"> Bootstrap </li>
+    <li><img src="imgs/dev_icons/electron-original.svg" class="lang_icon"> Gimp </li>
+</ul>
+
+Software (Misc.)
+<ul class="skill_list">
+    <li><img src="imgs/dev_icons/d3js-original.svg" class="lang_icon"> Postman</li>
+    <li><img src="imgs/dev_icons/nodejs-plain.svg" class="lang_icon"> Wireshark</li>
+    <li><img src="imgs/dev_icons/npm-original.svg" class="lang_icon"> Virtual Box</li>
+    <li><img src="imgs/dev_icons/electron-original.svg" class="lang_icon"> Git</li>
+    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> Github</li>
+    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> unix/bash</li>
+    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> Visual Studio Code</li>
 </ul>
 `
 
