@@ -274,4 +274,19 @@ img{
 }
 .skill_list{
     font-size: 24px;
+    background-color: #eee8d5;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.skill_list li{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+.btn {
+    width: 80%;
+    border: none;
 }

@@ -7,10 +7,16 @@
 const fs = require('fs');
 const path = require('path');
 
+projects = []
 
 // first access all json objects representing projects by looping through json folder
 for (const filePath of walkSync('json')) {
-  console.log(filePath);
+    console.log("loading" + filePath);
+
+    //load json object into memory
+    let data = fs.readFileSync(filePath)
+    let jsonString = JSON.parse(data)
+    console.log(jsonString)
 }
 
 

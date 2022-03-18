@@ -190,7 +190,6 @@ var aboutHTML = `
 
 // skills html as string
 var skillsHTML = `
-Skills<br>
 Languages (Programming)
 <ul class="skill_list">
     <li><img src="imgs/dev_icons/c-line.svg" class="lang_icon"> C</li>
@@ -204,7 +203,7 @@ Languages (Data Science)
 <ul class="skill_list">
     <li><img src="imgs/dev_icons/r-original.svg" class="lang_icon"> R</li>
     <li><img src="imgs/dev_icons/sql.svg" class="lang_icon"> SQL</li>
-    <li><img src="imgs/dev_icons/sql.svg" class="lang_icon"> Neo4j</li>
+    <li><img src="imgs/dev_icons/Neo4j.png" class="lang_icon"> Neo4j</li>
 </ul>
 
 JavaScript Stack (Misc.)
@@ -213,29 +212,29 @@ JavaScript Stack (Misc.)
     <li><img src="imgs/dev_icons/nodejs-plain.svg" class="lang_icon"> Node.js</li>
     <li><img src="imgs/dev_icons/npm-original.svg" class="lang_icon"> NPM</li>
     <li><img src="imgs/dev_icons/electron-original.svg" class="lang_icon"> Electron</li>
-    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> Jest (learning)</li>
-    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> Three.js (learning)</li>
+    <li><img src="imgs/dev_icons/jest.svg" class="lang_icon"> Jest </li>
+    <li><img src="imgs/dev_icons/Threejs.svg" class="lang_icon"> Three.js </li>
     <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> React (learning)</li>
     <li><img src="imgs/dev_icons/typescript-plain.svg" class="lang_icon"> TypeScript (learning)</li>
 </ul>
 
 Design Languages and Software 
 <ul class="skill_list">
-    <li><img src="imgs/dev_icons/d3js-original.svg" class="lang_icon"> HTML</li>
-    <li><img src="imgs/dev_icons/nodejs-plain.svg" class="lang_icon"> CSS </li>
-    <li><img src="imgs/dev_icons/npm-original.svg" class="lang_icon"> Bootstrap </li>
-    <li><img src="imgs/dev_icons/electron-original.svg" class="lang_icon"> Gimp </li>
+    <li><img src="imgs/dev_icons/html5-plain.svg" class="lang_icon"> HTML</li>
+    <li><img src="imgs/dev_icons/css3-plain.svg" class="lang_icon"> CSS </li>
+    <li><img src="imgs/dev_icons/bootstrap-plain.svg" class="lang_icon"> Bootstrap </li>
+    <li><img src="imgs/dev_icons/gimp-plain.svg" class="lang_icon"> Gimp </li>
 </ul>
 
 Software (Misc.)
 <ul class="skill_list">
-    <li><img src="imgs/dev_icons/d3js-original.svg" class="lang_icon"> Postman</li>
-    <li><img src="imgs/dev_icons/nodejs-plain.svg" class="lang_icon"> Wireshark</li>
-    <li><img src="imgs/dev_icons/npm-original.svg" class="lang_icon"> Virtual Box</li>
-    <li><img src="imgs/dev_icons/electron-original.svg" class="lang_icon"> Git</li>
-    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> Github</li>
-    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> unix/bash</li>
-    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> Visual Studio Code</li>
+    <li><img src="imgs/dev_icons/postman.svg" class="lang_icon"> Postman</li>
+    <li><img src="imgs/dev_icons/wireshark.svg" class="lang_icon"> Wireshark</li>
+    <li><img src="imgs/dev_icons/virtualbox.svg" class="lang_icon"> Virtual Box</li>
+    <li><img src="imgs/dev_icons/git-plain.svg" class="lang_icon"> Git</li>
+    <li><img src="imgs/dev_icons/github-original.svg" class="lang_icon"> Github</li>
+    <li><img src="imgs/dev_icons/linux.svg" class="lang_icon"> linux</li>
+    <li><img src="imgs/dev_icons/latex.svg" class="lang_icon"> LaTeX</li>
 </ul>
 `
 

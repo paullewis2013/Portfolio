@@ -166,4 +166,4 @@ const animate = function () {
 };
 
 // animate();
-var animateInterval = setInterval(animate, 20)
+var animateInterval = setInterval(animate, 40)
