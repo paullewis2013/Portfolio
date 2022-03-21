@@ -244,10 +244,11 @@ img{
 }
 #buttonRow{
     margin-bottom: 15px;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 #content{
     padding: 10px;
-    overflow: auto;
     scroll-behavior: smooth;
 }
 
