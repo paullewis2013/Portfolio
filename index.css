@@ -55,8 +55,11 @@ h4{
     height: 100%;
 }
 #header{
-    margin-top: -50%;
-    padding: 20px;
+    margin-top: -30%;  /* note this negative margin is because it overlaps the canvas */
+    margin-bottom: 100%;
+    margin-left: 24%;
+    position: fixed;
+    z-index: -1;
 }
 
 /* CSS Animations */
@@ -141,7 +144,6 @@ h4{
         visibility: visible;
     }
 }
-
 @keyframes bounce {
     0% { transform: scale(1, 1);}
     30% { transform: scale(1.25, 0.75); }
@@ -164,7 +166,6 @@ h4{
     width: 10ch;
     opacity: 0%;
 }
-
 
 #github{
     position: fixed;
@@ -244,8 +245,11 @@ img{
 }
 #buttonRow{
     margin-bottom: 15px;
-    overflow-x: hidden;
     max-width: 100%;
+}
+.btn {
+    width: 80%;
+    border: none;
 }
 #content{
     padding: 10px;
@@ -255,7 +259,6 @@ img{
 #footer{
     position: relative;
     background-color: #f58b5f;
-    /* margin-top: 15vh; */
     width: 100vw;
     height: 80px;
     z-index: 0;
@@ -269,6 +272,7 @@ img{
     text-align: center;
 }
 
+/* Dev stack css */
 .lang_icon{
     display: inline;
     height: 1.5em;
@@ -280,14 +284,8 @@ img{
     padding: 10px;
     margin: 20px;
 }
-
 .skill_list li{
     list-style-type: none;
     margin: 10px;
     padding: 0;
-}
-
-.btn {
-    width: 80%;
-    border: none;
 }
