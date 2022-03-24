@@ -27,10 +27,7 @@ var main = document.getElementById("main");
 main.addEventListener("scroll", function() {
     let amount = 15 * (main.scrollTop / main.clientHeight);
     header.setAttribute("style", "filter: blur(" + amount + "px);");
-    console.log("applied");
 })
-
-
 
 //cursor animation at beginning
 function showCursor(){
