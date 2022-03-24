@@ -14,3 +14,4 @@ rewrite skills section with new flex design
 rewrite about paragraph
 restructure images folder
 make footer disapear when content not all the way down
+make screenshots folder

@@ -23,10 +23,12 @@ function increaseIconOpacity(i){
 
 //this code blurs the title text
 var header = document.getElementById("header");
+// var cDiv = document.getElementById("canvasDiv");
 var main = document.getElementById("main");
 main.addEventListener("scroll", function() {
-    let amount = 15 * (main.scrollTop / main.clientHeight);
-    header.setAttribute("style", "filter: blur(" + amount + "px);");
+    let amount = (main.scrollTop / main.clientHeight);
+    header.setAttribute("style", "filter: blur(" + amount * 15 + "px);");
+    // cDiv.setAttribute("style", "filter: blur(" + amount * 1 + "px);");
 })
 
 //cursor animation at beginning

@@ -15,8 +15,10 @@ for (const filePath of walkSync('json')) {
 
     //load json object into memory
     let data = fs.readFileSync(filePath)
-    let jsonString = JSON.parse(data)
-    console.log(jsonString)
+    let obj = JSON.parse(data)
+    console.log(obj)
+
+    fs.writeFile(obj.landing_page_link, 'test');
 }
 
 
