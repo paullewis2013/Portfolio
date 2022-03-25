@@ -17,3 +17,4 @@ restructure images folder
 make screenshots folder
     fix about image spacing
 animations library
+keep footer consistent across pages

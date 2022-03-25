@@ -200,52 +200,63 @@ var aboutHTML = `
 
 // skills html as string
 var skillsHTML = `
-Languages (Programming)
-<ul class="skill_list">
-    <li><img src="imgs/dev_icons/c-line.svg" class="lang_icon"> C</li>
-    <li><img src="imgs/dev_icons/csharp-line.svg" class="lang_icon"> C#</li>
-    <li><img src="imgs/dev_icons/java-original.svg" class="lang_icon"> Java</li>
-    <li><img src="imgs/dev_icons/javascript-original.svg" class="lang_icon"> JavaScript</li>
-    <li><img src="imgs/dev_icons/python-original.svg" class="lang_icon"> Python</li>
-</ul>
 
-Languages (Data Science)
-<ul class="skill_list">
-    <li><img src="imgs/dev_icons/r-original.svg" class="lang_icon"> R</li>
-    <li><img src="imgs/dev_icons/sql.svg" class="lang_icon"> SQL</li>
-    <li><img src="imgs/dev_icons/Neo4j.png" class="lang_icon"> Neo4j</li>
-</ul>
+<div class="skill_list_section">
+    <p class="skill_list_category">Languages (Programming)</p>
+    <ul class="skill_list">
+        <li><img src="imgs/dev_icons/c-line.svg" class="lang_icon"> <p>C</p></li>
+        <li><img src="imgs/dev_icons/csharp-line.svg" class="lang_icon"> <p>C#</p></li>
+        <li><img src="imgs/dev_icons/java-original.svg" class="lang_icon"> <p>Java</p></li>
+        <li><img src="imgs/dev_icons/javascript-original.svg" class="lang_icon"> <p>JavaScript</p></li>
+        <li><img src="imgs/dev_icons/python-original.svg" class="lang_icon"> <p>Python</p></li>
+    </ul>
+</div>
 
-JavaScript Stack (Misc.)
-<ul class="skill_list">
-    <li><img src="imgs/dev_icons/d3js-original.svg" class="lang_icon"> D3.js</li>
-    <li><img src="imgs/dev_icons/nodejs-plain.svg" class="lang_icon"> Node.js</li>
-    <li><img src="imgs/dev_icons/npm-original.svg" class="lang_icon"> NPM</li>
-    <li><img src="imgs/dev_icons/electron-original.svg" class="lang_icon"> Electron</li>
-    <li><img src="imgs/dev_icons/jest.svg" class="lang_icon"> Jest </li>
-    <li><img src="imgs/dev_icons/Threejs.svg" class="lang_icon"> Three.js </li>
-    <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> React (learning)</li>
-    <li><img src="imgs/dev_icons/typescript-plain.svg" class="lang_icon"> TypeScript (learning)</li>
-</ul>
+<div class="skill_list_section">
+    <p class="skill_list_category">Languages (Data Science)</p>
+    <ul class="skill_list">
+        <li><img src="imgs/dev_icons/r-original.svg" class="lang_icon"> <p>R</p></li>
+        <li><img src="imgs/dev_icons/sql.svg" class="lang_icon"> <p>SQL</p></li>
+        <li><img src="imgs/dev_icons/Neo4j.png" class="lang_icon"> <p>Neo4j</p></li>
+    </ul>
+</div>
 
-Design Languages and Software 
-<ul class="skill_list">
-    <li><img src="imgs/dev_icons/html5-plain.svg" class="lang_icon"> HTML</li>
-    <li><img src="imgs/dev_icons/css3-plain.svg" class="lang_icon"> CSS </li>
-    <li><img src="imgs/dev_icons/bootstrap-plain.svg" class="lang_icon"> Bootstrap </li>
-    <li><img src="imgs/dev_icons/gimp-plain.svg" class="lang_icon"> Gimp </li>
-</ul>
+<div class="skill_list_section">
+    <p class="skill_list_category">JavaScript Stack (Misc.)</p>
+    <ul class="skill_list">
+        <li><img src="imgs/dev_icons/d3js-original.svg" class="lang_icon"> <p>D3.js</p></li>
+        <li><img src="imgs/dev_icons/nodejs-plain.svg" class="lang_icon"> <p>Node.js</p></li>
+        <li><img src="imgs/dev_icons/npm-original.svg" class="lang_icon"> <p>NPM</p></li>
+        <li><img src="imgs/dev_icons/electron-original.svg" class="lang_icon"> <p>Electron</p></li>
+        <li><img src="imgs/dev_icons/jest.svg" class="lang_icon"> <p>Jest</p> </li>
+        <li><img src="imgs/dev_icons/Threejs.svg" class="lang_icon"> <p>Three.js</p> </li>
+        <li><img src="imgs/dev_icons/react-original.svg" class="lang_icon"> <p>React (learning)</p></li>
+        <li><img src="imgs/dev_icons/typescript-plain.svg" class="lang_icon"> <p>TypeScript (learning)</p></li>
+    </ul>
+</div>
 
-Software (Misc.)
-<ul class="skill_list">
-    <li><img src="imgs/dev_icons/postman.svg" class="lang_icon"> Postman</li>
-    <li><img src="imgs/dev_icons/wireshark.svg" class="lang_icon"> Wireshark</li>
-    <li><img src="imgs/dev_icons/virtualbox.svg" class="lang_icon"> Virtual Box</li>
-    <li><img src="imgs/dev_icons/git-plain.svg" class="lang_icon"> Git</li>
-    <li><img src="imgs/dev_icons/github-original.svg" class="lang_icon"> Github</li>
-    <li><img src="imgs/dev_icons/linux.svg" class="lang_icon"> linux</li>
-    <li><img src="imgs/dev_icons/latex.svg" class="lang_icon"> LaTeX</li>
-</ul>
+<div class="skill_list_section">
+    <p class="skill_list_category">Design Languages and Software</p>
+    <ul class="skill_list">
+        <li><img src="imgs/dev_icons/html5-plain.svg" class="lang_icon"> <p>HTML</p></li>
+        <li><img src="imgs/dev_icons/css3-plain.svg" class="lang_icon"> <p>CSS</p> </li>
+        <li><img src="imgs/dev_icons/bootstrap-plain.svg" class="lang_icon"> <p>Bootstrap</p> </li>
+        <li><img src="imgs/dev_icons/gimp-plain.svg" class="lang_icon"> <p>Gimp</p> </li>
+    </ul>
+</div>
+
+<div class="skill_list_section">
+    <p class="skill_list_category">Software (Misc.)</p>
+    <ul class="skill_list">
+        <li><img src="imgs/dev_icons/postman.svg" class="lang_icon"> <p>Postman</p></li>
+        <li><img src="imgs/dev_icons/wireshark.svg" class="lang_icon"> <p>Wireshark</p></li>
+        <li><img src="imgs/dev_icons/virtualbox.svg" class="lang_icon"> <p>Virtual Box</p></li>
+        <li><img src="imgs/dev_icons/git-plain.svg" class="lang_icon"> <p>Git</p></li>
+        <li><img src="imgs/dev_icons/github-original.svg" class="lang_icon"> <p>Github</p></li>
+        <li><img src="imgs/dev_icons/linux.svg" class="lang_icon"> <p>Linux</p></li>
+        <li><img src="imgs/dev_icons/latex.svg" class="lang_icon"> <p>LaTeX</p></li>
+    </ul>
+</div>
 `
 
 var content = document.getElementById("content")

@@ -1,0 +1,64 @@
+.arrows {
+	width: 60px;
+	position: fixed;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20vh;
+    z-index: -5;
+}
+
+.arrows path {
+	stroke: #f58b5f;
+	fill: transparent;
+	stroke-width: 5px;	
+	animation: arrow 10s infinite;
+	-webkit-animation: arrow 10s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+20% {opacity:1}
+60% {opacity:0}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+20% {opacity:1}
+60% {opacity:0}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-8.5s;
+	-webkit-animation-delay:-8.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-8s;
+	-webkit-animation-delay:-8s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:-7.5s;
+	-webkit-animation-delay:-7.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a4 {	
+	animation-delay:-7s;
+	-webkit-animation-delay:-7s; /* Safari 和 Chrome */
+}
+
+.arrows path.a5 {	
+	animation-delay:-6.5s;
+	-webkit-animation-delay:-6.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a6 {	
+	animation-delay:-6s;
+	-webkit-animation-delay:-6s; /* Safari 和 Chrome */
+}

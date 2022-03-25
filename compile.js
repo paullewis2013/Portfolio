@@ -78,7 +78,7 @@ for (const filePath of walkSync('json')) {
         <div class="footer-row">
             <!-- right column -->
             <div class="footer-col">
-                <p class="footer-text">Portfolio Version: 1.0.4</p>
+                <p class="footer-text">Portfolio Version: 1.0.5</p>
             </div>
 
             <!-- middle column -->

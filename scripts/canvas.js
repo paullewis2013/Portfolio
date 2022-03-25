@@ -54,7 +54,7 @@ camera.rotation.x = 0;
 // const color = 0xFFFFFF;
 const skyColor =    0xdc322f; 
 const groundColor = 0x6c71c4;
-const intensity = 0.2;
+const intensity = 0.25;
 // const light3 = new THREE.AmbientLight(color, intensity);
 const light3 = new THREE.HemisphereLight(skyColor, groundColor, intensity);
 scene.add(light3);
