@@ -65,6 +65,9 @@ for (const filePath of walkSync('json')) {
         <!-- deployment link -->
             <p>Deployment: <a href="${obj.gh_pages_link}">Github Pages Site</a></p>
 
+        <!-- repo link -->
+            <p>Source code: <a href="${obj.repo_link}">Github Repository</a></p>
+
         <!-- return to portfolio link -->
             <a href="../index.html">Return to Portfolio</a>
 

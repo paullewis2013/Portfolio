@@ -1,10 +1,10 @@
 { 
-    "name": "",
-    "img_path": "",
+    "name": "Conway's Game of Life",
+    "img_path": "../imgs/tn_conway.png",
     "description": "",
     "start_date": "",
     "num_lines": "",
-    "repo_link": "",
+    "repo_link": "https://github.com/paullewis2013/GameOfLife/",
     "landing_page_link": "html/conway.html",
     "gh_pages_link": "https://paullewis2013.github.io/GameOfLife/"
 }

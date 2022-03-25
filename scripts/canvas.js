@@ -17,7 +17,6 @@ const geometry6 = new THREE.SphereGeometry( 2, 16, 16 );
 
 const material = new THREE.MeshBasicMaterial( { color: 	0xf58b5f, wireframe: true } );
 
-
 var specialCubeArr = []
 
 //make floating spheres
@@ -55,7 +54,7 @@ camera.rotation.x = 0;
 // const color = 0xFFFFFF;
 const skyColor =    0xdc322f; 
 const groundColor = 0x6c71c4;
-const intensity = 0.4;
+const intensity = 0.2;
 // const light3 = new THREE.AmbientLight(color, intensity);
 const light3 = new THREE.HemisphereLight(skyColor, groundColor, intensity);
 scene.add(light3);

@@ -24,11 +24,14 @@ function increaseIconOpacity(i){
 //this code blurs the title text
 var header = document.getElementById("header");
 var arrows = document.getElementById("arrows");
+var canvas = document.getElementById("canvas");
 var main = document.getElementById("main");
 main.addEventListener("scroll", function() {
     let amount = (main.scrollTop / main.clientHeight);
+    let amount2 = (main.scrollTop / main.scrollHeight);
     header.setAttribute("style", "filter: blur(" + amount * 15 + "px);");
     arrows.setAttribute("style", "filter: blur(" + amount * 15 + "px);");
+    // canvas.setAttribute("style", "filter: blur(" + amount2 + "px);");
 })
 
 //cursor animation at beginning

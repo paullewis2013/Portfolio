@@ -1,5 +1,5 @@
 replace rectangular prisms in animation with hexagonal prisms
-scroll indication
+    scroll indication
 standardize thumbnails
     hide content all the way at start
 move html in js to html files and read it in to single js file at compile time
@@ -16,3 +16,4 @@ restructure images folder
     make footer disapear when content not all the way down
 make screenshots folder
     fix about image spacing
+animations library
