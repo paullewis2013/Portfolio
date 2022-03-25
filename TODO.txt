@@ -1,7 +1,7 @@
 replace rectangular prisms in animation with hexagonal prisms
 scroll indication
 standardize thumbnails
-hide content all the way at start
+    hide content all the way at start
 move html in js to html files and read it in to single js file at compile time
 split up css
 generate first landing page
@@ -13,5 +13,6 @@ sort skills by different controls
 rewrite skills section with new flex design
 rewrite about paragraph
 restructure images folder
-make footer disapear when content not all the way down
+    make footer disapear when content not all the way down
 make screenshots folder
+    fix about image spacing

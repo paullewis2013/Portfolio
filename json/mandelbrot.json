@@ -1,6 +1,6 @@
 { 
     "name": "Mandelbrot Set Visualization",
-    "img_path": "imgs/tn_mandelbrot.svg",
+    "img_path": "../imgs/tn_mandelbrot.png",
     "description": "",
     "start_date": "",
     "num_lines": "",

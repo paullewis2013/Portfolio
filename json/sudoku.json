@@ -1,10 +1,10 @@
 { 
-    "name": "",
-    "img_path": "",
+    "name": "Sudoku",
+    "img_path": "../imgs/tn_sudoku.png",
     "description": "",
     "start_date": "",
     "num_lines": "",
     "repo_link": "",
     "landing_page_link": "html/sudoku.html",
-    "gh_pages_link": ""
+    "gh_pages_link": "https://paullewis2013.github.io/Sudoku/"
 }

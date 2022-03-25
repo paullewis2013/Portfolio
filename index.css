@@ -27,7 +27,7 @@ h4{
     top: 0;
     position: relative;
     overflow-y: scroll;
-    padding-bottom: 8vh; /* note this is what allows the content to overlap at beginning */
+    /* padding-bottom: 8vh; note this is what allows the content to overlap at beginning */
     margin: 0;
     height: 100%;
 }
@@ -53,6 +53,14 @@ h4{
     filter: blur(0px);
     display: flex;
     flex-direction: column;
+}
+#aboutDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#aboutImage{
+    width: 32%;
 }
 
 /* CSS Animations */
@@ -181,13 +189,6 @@ h4{
     filter: invert(72%) sepia(39%) saturate(2239%) hue-rotate(319deg) brightness(100%) contrast(93%);
 }
 
-/* #scroll_indicator p{
-    align-content: center;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 .col-4, .col-6{
     display: flex;
     justify-content: center;
@@ -207,13 +208,13 @@ h4{
 
 .projects{
     background-color:#fdf6e3;
-    visibility: hidden;
-    animation: arrise 5s forwards;
+    /* visibility: hidden; */
+    /* animation: arrise 5s forwards; */
     width:70%;
     /* height:100%; */
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
     border-radius: 5px;
     padding-top: 15px;
     overflow: auto;
@@ -298,4 +299,70 @@ h4{
     list-style-type: none;
     margin: 10px;
     padding: 0;
+}
+
+
+.arrows {
+	width: 60px;
+	position: fixed;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20vh;
+    z-index: -5;
+}
+
+.arrows path {
+	stroke: #f58b5f;
+	fill: transparent;
+	stroke-width: 5px;	
+	animation: arrow 10s infinite;
+	-webkit-animation: arrow 10s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+20% {opacity:1}
+60% {opacity:0}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+20% {opacity:1}
+60% {opacity:0}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-8.5s;
+	-webkit-animation-delay:-8.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-8s;
+	-webkit-animation-delay:-8s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:-7.5s;
+	-webkit-animation-delay:-7.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a4 {	
+	animation-delay:-7s;
+	-webkit-animation-delay:-7s; /* Safari 和 Chrome */
+}
+
+.arrows path.a5 {	
+	animation-delay:-6.5s;
+	-webkit-animation-delay:-6.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a6 {	
+	animation-delay:-6s;
+	-webkit-animation-delay:-6s; /* Safari 和 Chrome */
 }

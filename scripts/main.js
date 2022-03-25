@@ -23,12 +23,12 @@ function increaseIconOpacity(i){
 
 //this code blurs the title text
 var header = document.getElementById("header");
-// var cDiv = document.getElementById("canvasDiv");
+var arrows = document.getElementById("arrows");
 var main = document.getElementById("main");
 main.addEventListener("scroll", function() {
     let amount = (main.scrollTop / main.clientHeight);
     header.setAttribute("style", "filter: blur(" + amount * 15 + "px);");
-    // cDiv.setAttribute("style", "filter: blur(" + amount * 1 + "px);");
+    arrows.setAttribute("style", "filter: blur(" + amount * 15 + "px);");
 })
 
 //cursor animation at beginning
@@ -78,7 +78,7 @@ var projectsHTML = `
     <div class="row projectrow">
     
     <div class="col-3">
-        <a href="https://paullewis2013.github.io/Fractals/">
+        <a href="html/mandelbrot.html">
             <img src="imgs/tn_mandelbrot.png" alt="Mandelbrot Image" class="thumbnail">
         </a>
     </div>
@@ -95,7 +95,7 @@ var projectsHTML = `
     <div class="row projectrow">
 
     <div class="col-3">
-        <a href="https://paullewis2013.github.io/GameOfLife/">
+        <a href="html/conway.html">
             <img src="imgs/tn_conway.png" alt="Game of Life Image" class="thumbnail">
         </a>
     </div>
@@ -112,7 +112,7 @@ var projectsHTML = `
     <div class="row projectrow">
             
     <div class="col-3">
-        <a href="https://paullewis2013.github.io/Sudoku/">
+        <a href="html/sudoku.html">
             <img src="imgs/tn_sudoku.png" alt="Sudoku Image" class="thumbnail">
         </a>
     </div>
@@ -129,7 +129,7 @@ var projectsHTML = `
     <div class="row projectrow">
         
     <div class="col-3">
-        <a href="https://paullewis2013.github.io/PerlinNoisePlayground/"> 
+        <a href="html/perlin.html"> 
             <img src="imgs/tn_perlin.png" alt="Perlin Image" class="thumbnail">
         </a>
     </div>
@@ -147,7 +147,7 @@ var projectsHTML = `
     <div class="row projectrow">
         
         <div class="col-3">
-            <a href="https://paullewis2013.github.io/ChordIdentifier/"> 
+            <a href="html/chord.html"> 
                 <img src="imgs/tn_chord.png" alt="ChordIdentifier Image" class="thumbnail">
             </a>
         </div>
@@ -165,7 +165,7 @@ var projectsHTML = `
     <div class="row projectrow">
         
         <div class="col-3">
-            <a href="https://paullewis2013.github.io/D3Project/">
+            <a href="html/catan.html">
                 <img src="imgs/tn_catan.png" alt="Catan Image" class="thumbnail">
             </a>
         </div>
@@ -186,11 +186,11 @@ var projectsHTML = `
 
 //about html as string
 var aboutHTML = `
-
-<img src="imgs/paul_circle.png" height="300px">
+<div id="aboutDiv">
+<img src="imgs/paul_circle.png" id="aboutImage">
 
 <h4 style="text-align:center">Hi, my name is Paul and I’m a Computer Science major at the University of Pittsburgh interested in Web Development, Computer Graphics, and Data Visualization. In addition to Computer Science, I am also pursuing minors in Music and Spanish. During my free time I enjoy reading, running, and playing the guitar.</h4>
-
+</div>
 
 
 `

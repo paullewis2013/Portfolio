@@ -18,11 +18,82 @@ for (const filePath of walkSync('json')) {
     let obj = JSON.parse(data)
     console.log(obj)
 
-    fs.writeFile(obj.landing_page_link, 'test');
+    let content = `
+<!-- Paul Lewis, generated automatically by the script compile.js -->
+<!doctype html>
+
+<html lang="en">
+    
+    <head>
+        <!-- Standard metadata -->
+        <meta charset="utf-8">
+        <title>${obj.name}</title>
+        <meta name="description" content="${obj.name}">
+        <meta name="author" content="Paul Lewis">
+
+        <!-- Sets open graph protocol metadata for website -->
+        <meta property="og:title" content="${obj.name}" >
+        <meta property="og:type" content="website" >
+        <meta property="og:url" content="${obj.landing_page_link}" >
+        <meta property="og:image" content="../imgs/paul_circle.png" >
+
+        <!-- CSS and Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../css/landing.css">
+
+        <!-- Sets icon displayed in tab for website -->
+        <link rel="shortcut icon" href="../imgs/favicon.png" type="image/x-icon">
+        <link rel="icon" href="../imgs/favicon.png" type="image/x-icon">
+
+    </head>
+    <body>
+        <div id="content">
+
+            <div id="top">
+                <img src="${obj.img_path}">
+                <h1>${obj.name}</h1>
+            </div>
+
+            <p>Description:${obj.description}</p>
+
+        <!-- meta data for project (date, # commits, # lines, etc.)-->
+            <p>Meta data</p>
+
+        <!-- usage -->
+            <p>Usage</p>
+
+        <!-- deployment link -->
+            <p>Deployment: <a href="${obj.gh_pages_link}">Github Pages Site</a></p>
+
+        <!-- return to portfolio link -->
+            <a href="../index.html">Return to Portfolio</a>
+
+        </div>
+
+        <!-- footer here -->
+        <!-- Footer with some site information -->
+        <div class="footer-row">
+            <!-- right column -->
+            <div class="footer-col">
+                <p class="footer-text">Portfolio Version: 1.0.4</p>
+            </div>
+
+            <!-- middle column -->
+            <div class="footer-col">
+                <p class="footer-text">Paul Lewis, 2022</p>
+            </div>
+
+        </div>
+    </body>
+
+</html>
+    `
+
+    fs.writeFile(obj.landing_page_link, content, function (err) {
+        if (err) throw err;
+        console.log('File is created successfully.');
+    });
 }
-
-
-// next delete all files in html/landing pages folder
 
 // next create html snippets for each object and write to html folder
 
