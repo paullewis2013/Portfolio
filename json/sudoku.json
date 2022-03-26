@@ -1,7 +1,7 @@
 { 
     "name": "Sudoku",
     "img_path": "../imgs/tn_sudoku.png",
-    "description": "",
+    "description": "<ul><li>Solves Sudoku puzzles using backtracking algorithm</li><li>Allows user to input custom sudoku puzzles to solve</li><li>Visualization of search space shown on right</li></ul>",
     "start_date": "",
     "num_lines": "",
     "repo_link": "https://github.com/paullewis2013/Sudoku/",

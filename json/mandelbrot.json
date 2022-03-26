@@ -1,7 +1,7 @@
 { 
     "name": "Mandelbrot Set Visualization",
     "img_path": "../imgs/tn_mandelbrot.png",
-    "description": "",
+    "description": "<ul><li>Plotted the mandelbrot set with color gradient corresponding to time to diverge</li><li>Added ability to zoom in on interesting areas of mandelbrot set to view them in greater detail</li> <li>Created ability to sync up animation to match the beats per minute of a song</li></ul>",
     "start_date": "",
     "num_lines": "",
     "repo_link": "https://github.com/paullewis2013/Fractals",

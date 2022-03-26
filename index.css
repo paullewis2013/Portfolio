@@ -27,6 +27,7 @@ h4{
     top: 0;
     position: relative;
     overflow-y: scroll;
+    overflow-x: hidden;
     /* padding-bottom: 8vh; note this is what allows the content to overlap at beginning */
     margin: 0;
     height: 100%;

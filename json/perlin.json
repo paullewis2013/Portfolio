@@ -1,7 +1,7 @@
 { 
     "name": "Perlin Noise",
     "img_path": "../imgs/tn_perlin.png",
-    "description": "",
+    "description": "<ul><li>Displays 3D perlin noise on a 64x64 array of spheres</li><li>Adjustable sliders allow user to control parameters of Perlin noise</li><li>Same effect as used in Portfolio background</li></ul>",
     "start_date": "",
     "num_lines": "",
     "repo_link": "https://github.com/paullewis2013/PerlinNoisePlayground/",
