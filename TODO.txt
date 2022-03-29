@@ -18,3 +18,4 @@ make screenshots folder
     fix about image spacing
 animations library
 keep footer consistent across pages
+switch to todo.md checklist

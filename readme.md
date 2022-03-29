@@ -3,6 +3,8 @@
 This is a static site I've built to showcase some of my programming and design projects  
 Below I've included image attribution and some usage information for future updates and maintenance  
 
+The main page is located at index.html and the site can be accessed at https://paullewis2013.github.io/Portfolio/
+
 ## Image credits:
 
 |Image                   |   Source                                                      |

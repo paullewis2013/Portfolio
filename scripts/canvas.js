@@ -14,9 +14,10 @@ const geometry4 = new THREE.SphereGeometry( 1, 12, 12 );
 const geometry5 = new THREE.SphereGeometry( 1.5, 16, 16 );
 const geometry6 = new THREE.SphereGeometry( 2, 16, 16 );
 
-
+// material for floating spheres
 const material = new THREE.MeshBasicMaterial( { color: 	0xf58b5f, wireframe: true } );
 
+// "special cubes" are actually just spheres, I really should clean up this code
 var specialCubeArr = []
 
 //make floating spheres
