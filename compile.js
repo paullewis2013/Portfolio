@@ -16,7 +16,6 @@ for (const filePath of walkSync('json')) {
     //load json object into memory
     let data = fs.readFileSync(filePath)
     let obj = JSON.parse(data)
-    console.log(obj)
 
     let content = `
 <!-- Paul Lewis, generated automatically by the script compile.js -->
@@ -98,12 +97,6 @@ for (const filePath of walkSync('json')) {
         console.log('File is created successfully.');
     });
 }
-
-// next create html snippets for each object and write to html folder
-
-// finally store those as strings of html in a js file that can be loaded on site
-
-
 
 // utility functions
 

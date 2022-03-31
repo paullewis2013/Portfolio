@@ -9,13 +9,13 @@ The main page is located at index.html and the site can be accessed at https://p
 
 |Image                   |   Source                                                      |
 |------------------------|---------------------------------------------------------------|
-|   neo4j logo           |   https://neo4j.com/brand/                                    |
 |   jest logo            |   https://vecta.io/symbols/85/brands-ja-jz/20/jest-icon       |
-|   three.js logo        |   https://discourse.threejs.org/t/three-js-svg-logo/21835     |
-|   Postman logo         |   https://www.vectorlogo.zone/logos/getpostman/index.html     |
-|   Wireshark logo       |   https://www.vectorlogo.zone/logos/wireshark/index.html      |
-|   VirtualBox logo      |   https://www.vectorlogo.zone/logos/virtualbox/index.html     |
 |   LaTeX logo           |   https://commons.wikimedia.org/wiki/File:LaTeX_logo.svg      |
+|   neo4j logo           |   https://neo4j.com/brand/                                    |
+|   Postman logo         |   https://www.vectorlogo.zone/logos/getpostman/index.html     |
+|   three.js logo        |   https://discourse.threejs.org/t/three-js-svg-logo/21835     |
+|   VirtualBox logo      |   https://www.vectorlogo.zone/logos/virtualbox/index.html     |
+|   Wireshark logo       |   https://www.vectorlogo.zone/logos/wireshark/index.html      |
 
 
 ## usage information here for future maintanence

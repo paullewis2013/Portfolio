@@ -81,7 +81,7 @@ var projectsHTML = `
     <div class="row projectrow">
     
     <div class="col-3">
-        <a href="html/mandelbrot.html">
+        <a href="html/mandelbrot.html" target="_blank">
             <img src="imgs/tn_mandelbrot.png" alt="Mandelbrot Image" class="thumbnail">
         </a>
     </div>
@@ -98,7 +98,7 @@ var projectsHTML = `
     <div class="row projectrow">
 
     <div class="col-3">
-        <a href="html/conway.html">
+        <a href="html/conway.html" target="_blank">
             <img src="imgs/tn_conway.png" alt="Game of Life Image" class="thumbnail">
         </a>
     </div>
@@ -115,7 +115,7 @@ var projectsHTML = `
     <div class="row projectrow">
             
     <div class="col-3">
-        <a href="html/sudoku.html">
+        <a href="html/sudoku.html" target="_blank">
             <img src="imgs/tn_sudoku.png" alt="Sudoku Image" class="thumbnail">
         </a>
     </div>
@@ -132,7 +132,7 @@ var projectsHTML = `
     <div class="row projectrow">
         
     <div class="col-3">
-        <a href="html/perlin.html"> 
+        <a href="html/perlin.html" target="_blank"> 
             <img src="imgs/tn_perlin.png" alt="Perlin Image" class="thumbnail">
         </a>
     </div>
@@ -150,7 +150,7 @@ var projectsHTML = `
     <div class="row projectrow">
         
         <div class="col-3">
-            <a href="html/chord.html"> 
+            <a href="html/chord.html" target="_blank"> 
                 <img src="imgs/tn_chord.png" alt="ChordIdentifier Image" class="thumbnail">
             </a>
         </div>
@@ -168,7 +168,7 @@ var projectsHTML = `
     <div class="row projectrow">
         
         <div class="col-3">
-            <a href="html/catan.html">
+            <a href="html/catan.html" target="_blank">
                 <img src="imgs/tn_catan.png" alt="Catan Image" class="thumbnail">
             </a>
         </div>

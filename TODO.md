@@ -1,0 +1,21 @@
+- [ ] replace rectangular prisms in animation with hexagonal prisms
+- [x] scroll indication
+- [ ] standardize thumbnails
+- [x] hide content all the way at start
+- [ ] move html in js to html files and read it in to single js file at compile time
+- [ ] split up css
+- [x] generate first landing page
+- [x] automatically generate landing pages w compile.js
+- [ ] cite rest of images
+- [ ] replace project cards with new flex design
+- [ ] parallax effect with title
+- [ ] sort skills by different controls
+- [ ] rewrite skills section with new flex design
+- [ ] rewrite about paragraph
+- [ ] restructure images folder
+- [x] make footer disapear when content not all the way down
+- [ ] make screenshots folder
+- [x] fix about image spacing
+- [ ] animations library
+- [ ] keep footer consistent across pages
+- [x] switch to todo.md checklist
