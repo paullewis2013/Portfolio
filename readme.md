@@ -18,7 +18,7 @@ The main page is located at index.html and the site can be accessed at https://p
 |   Wireshark logo       |   https://www.vectorlogo.zone/logos/wireshark/index.html      |
 
 
-## usage information here for future maintanence
+## Usage information here for future maintanence
 
 adding projects:
 1. create a new project_name.json file with project information
@@ -28,3 +28,27 @@ adding projects:
 adding scripts:
 1. add js file to /scripts directory
 2. add path of js file to array in scripts/driver.js 
+
+## Todo 
+
+- [ ] replace rectangular prisms in animation with hexagonal prisms
+- [x] scroll indication
+- [ ] standardize thumbnails
+- [x] hide content all the way at start
+- [ ] move html in js to html files and read it in to single js file at compile time
+- [ ] split up css
+- [x] generate first landing page
+- [x] automatically generate landing pages w compile.js
+- [ ] cite rest of images
+- [ ] replace project cards with new flex design
+- [ ] parallax effect with title
+- [ ] sort skills by different controls
+- [ ] rewrite skills section with new flex design
+- [ ] rewrite about paragraph
+- [ ] restructure images folder
+- [x] make footer disapear when content not all the way down
+- [ ] make screenshots folder
+- [x] fix about image spacing
+- [ ] animations library
+- [ ] keep footer consistent across pages
+- [x] switch to todo.md checklist

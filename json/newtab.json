@@ -1,0 +1,10 @@
+{ 
+    "name": "Chrome New Tab",
+    "img_path": "../imgs/tn_newtab.png",
+    "description": "<li>Built a Chrome extension to replace the default new tab page in browser</li><li>Pulls curated images from Unsplash from several collections</li><li>Uses local storage to customize experience</li>",
+    "start_date": "",
+    "num_lines": "",
+    "repo_link": "https://github.com/paullewis2013/NewTabChrome/",
+    "landing_page_link": "html/newtab.html",
+    "gh_pages_link": ""
+}

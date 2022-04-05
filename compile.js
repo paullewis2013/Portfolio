@@ -57,11 +57,14 @@ for (const filePath of walkSync('json')) {
             ${obj.description}
 
         <!-- meta data for project (date, # commits, # lines, etc.)-->
+        <!-- 
             <h5>Meta data:</h5>
+        -->
 
-        <!-- usage -->
+        <!-- usage --> 
+        <!-- 
             <h5>Usage:</h5>
-
+        -->
         <!-- deployment link -->
             <p>Deployment: <a href="${obj.gh_pages_link}">Github Pages Site</a></p>
 

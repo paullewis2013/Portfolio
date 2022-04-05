@@ -1,6 +1,6 @@
 { 
     "name": "Catan clone",
-    "img_path": "imgs/tn_catan",
+    "img_path": "../imgs/tn_catan.png",
     "description": "<ul><li>An interactive version of the board game Catan</li><li>AI controlled players capable of placing opening settlements competitively</li><li>Analysis of game data in real time</li></ul>",
     "start_date": "",
     "num_lines": "",

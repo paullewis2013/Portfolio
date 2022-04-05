@@ -182,7 +182,22 @@ var projectsHTML = `
 
     </div><br>
 
+    <div class="row projectrow">
+        
+        <div class="col-3">
+            <a href="html/newtab.html" target="_blank">
+                <img src="imgs/tn_newtab.png" alt="New Tab Image" class="thumbnail">
+            </a>
+        </div>
+        
+        <div class="col-9">
+            <h5>Chrome New Tab Page</h5>
+            <li>Built a Chrome extension to replace the default new tab page in browser</li>
+            <li>Pulls curated images from Unsplash from several collections</li>
+            <li>Uses local storage to customize experience</li>
+        </div>
 
+    </div><br>
 
 
 </div>`;
