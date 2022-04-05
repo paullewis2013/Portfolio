@@ -9,13 +9,32 @@ The main page is located at index.html and the site can be accessed at https://p
 
 |Image                   |   Source                                                      |
 |------------------------|---------------------------------------------------------------|
-|   jest logo            |   https://vecta.io/symbols/85/brands-ja-jz/20/jest-icon       |
-|   LaTeX logo           |   https://commons.wikimedia.org/wiki/File:LaTeX_logo.svg      |
-|   neo4j logo           |   https://neo4j.com/brand/                                    |
-|   Postman logo         |   https://www.vectorlogo.zone/logos/getpostman/index.html     |
-|   three.js logo        |   https://discourse.threejs.org/t/three-js-svg-logo/21835     |
-|   VirtualBox logo      |   https://www.vectorlogo.zone/logos/virtualbox/index.html     |
-|   Wireshark logo       |   https://www.vectorlogo.zone/logos/wireshark/index.html      |
+|   Bootstrap icon       |   http://konpa.github.io/devicon/ under MIT license           |
+|   C icon               |   http://konpa.github.io/devicon/ under MIT license           |
+|   CSS3 icon            |   http://konpa.github.io/devicon/ under MIT license           |
+|   C# icon              |   http://konpa.github.io/devicon/ under MIT license           |
+|   D3 icon              |   http://konpa.github.io/devicon/ under MIT license           |
+|   Electron icon        |   http://konpa.github.io/devicon/ under MIT license           |
+|   Gimp icon            |   http://konpa.github.io/devicon/ under MIT license           |
+|   Git icon             |   http://konpa.github.io/devicon/ under MIT license           |
+|   GitHub icon          |   http://konpa.github.io/devicon/ under MIT license           |
+|   HTML5 icon           |   http://konpa.github.io/devicon/ under MIT license           |
+|   Java icon            |   http://konpa.github.io/devicon/ under MIT license           |
+|   JavaScript icon      |   http://konpa.github.io/devicon/ under MIT license           |
+|   jest icon            |   https://vecta.io/symbols/85/brands-ja-jz/20/jest-icon       |
+|   LaTeX icon           |   https://commons.wikimedia.org/wiki/File:LaTeX_logo.svg      |
+|   Linux icon           |   http://konpa.github.io/devicon/ under MIT license           |
+|   neo4j icon           |   https://neo4j.com/brand/                                    |
+|   Node.js icon         |   http://konpa.github.io/devicon/ under MIT license           |
+|   npm icon             |   http://konpa.github.io/devicon/ under MIT license           |
+|   Postman icon         |   https://www.vectorlogo.zone/logos/getpostman/index.html     |
+|   Python icon          |   http://konpa.github.io/devicon/ under MIT license           |
+|   R icon               |   http://konpa.github.io/devicon/ under MIT license           |
+|   React icon           |   http://konpa.github.io/devicon/ under MIT license           |
+|   three.js icon        |   https://discourse.threejs.org/t/three-js-svg-logo/21835     |
+|   Typescript icon      |   http://konpa.github.io/devicon/ under MIT license           |
+|   VirtualBox icon      |   https://www.vectorlogo.zone/logos/virtualbox/index.html     |
+|   Wireshark icon       |   https://www.vectorlogo.zone/logos/wireshark/index.html      |
 
 
 ## Usage information here for future maintanence
