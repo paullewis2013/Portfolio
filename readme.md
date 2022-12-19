@@ -58,7 +58,7 @@ adding scripts:
 - [ ] split up css
 - [x] generate first landing page
 - [x] automatically generate landing pages w compile.js
-- [ ] cite rest of images
+- [x] cite rest of images
 - [ ] replace project cards with new flex design
 - [ ] parallax effect with title
 - [ ] sort skills by different controls
