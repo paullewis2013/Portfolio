@@ -207,7 +207,11 @@ var aboutHTML = `
 <div id="aboutDiv">
 <img src="imgs/paul_circle.png" id="aboutImage">
 
-<h4 style="text-align:center">Hi, my name is Paul and I’m a Computer Science major at the University of Pittsburgh interested in Web Development, Computer Graphics, and Data Visualization. In addition to Computer Science, I am also pursuing minors in Music and Spanish. During my free time I enjoy reading, running, and playing the guitar.</h4>
+<h4 style="text-align:center">
+Hi, welcome to my portfolio. My name is Paul and I’m a full stack software developer with a Bachelor's degree in Computer Science. 
+I use this website to showcase my personal projects and highlight some of the technologies I’ve worked with. 
+If you're interested in getting in touch, feel free to connect with me using the links in the upper right corner.
+</h4>
 </div>
 
 

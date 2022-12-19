@@ -1,5 +1,5 @@
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.1, 1000 );
+var camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
 canvas = document.getElementById("canvas")
 
@@ -8,6 +8,10 @@ renderer.setSize( window.innerWidth, window.innerHeight );
 
 window.addEventListener("resize", function() {
     renderer.setSize( window.innerWidth, window.innerHeight );
+    camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.1, 1000 );
+    camera.position.z = 35;
+    camera.position.y = 20;
+    camera.rotation.x = 0;
 });
 
 //geometry for dice
