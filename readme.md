@@ -50,7 +50,7 @@ adding scripts:
 
 ## Todo 
 
-- [ ] replace rectangular prisms in animation with hexagonal prisms
+- [x] replace rectangular prisms in animation with hexagonal prisms
 - [x] scroll indication
 - [ ] standardize thumbnails
 - [x] hide content all the way at start
