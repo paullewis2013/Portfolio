@@ -15,6 +15,7 @@ The main page is located at index.html and the site can be accessed at https://p
 |   C# icon              |   http://konpa.github.io/devicon/ under MIT license           |
 |   D3 icon              |   http://konpa.github.io/devicon/ under MIT license           |
 |   Electron icon        |   http://konpa.github.io/devicon/ under MIT license           |
+|   Express icon         |   http://konpa.github.io/devicon/ under MIT license           |
 |   Gimp icon            |   http://konpa.github.io/devicon/ under MIT license           |
 |   Git icon             |   http://konpa.github.io/devicon/ under MIT license           |
 |   GitHub icon          |   http://konpa.github.io/devicon/ under MIT license           |
@@ -24,6 +25,7 @@ The main page is located at index.html and the site can be accessed at https://p
 |   jest icon            |   https://vecta.io/symbols/85/brands-ja-jz/20/jest-icon       |
 |   LaTeX icon           |   https://commons.wikimedia.org/wiki/File:LaTeX_logo.svg      |
 |   Linux icon           |   http://konpa.github.io/devicon/ under MIT license           |
+|   Maze icon            |   modified from vecteezy.com                                  |
 |   neo4j icon           |   https://neo4j.com/brand/                                    |
 |   Node.js icon         |   http://konpa.github.io/devicon/ under MIT license           |
 |   npm icon             |   http://konpa.github.io/devicon/ under MIT license           |
@@ -31,6 +33,7 @@ The main page is located at index.html and the site can be accessed at https://p
 |   Python icon          |   http://konpa.github.io/devicon/ under MIT license           |
 |   R icon               |   http://konpa.github.io/devicon/ under MIT license           |
 |   React icon           |   http://konpa.github.io/devicon/ under MIT license           |
+|   Stability AI icon    |   https://avatars.githubusercontent.com/u/100950301?s=200&v=4 |
 |   three.js icon        |   https://discourse.threejs.org/t/three-js-svg-logo/21835     |
 |   Typescript icon      |   http://konpa.github.io/devicon/ under MIT license           |
 |   VirtualBox icon      |   https://www.vectorlogo.zone/logos/virtualbox/index.html     |
@@ -43,10 +46,16 @@ adding projects:
 1. create a new project_name.json file with project information
 2. create a tn_project_name.png thumbnail image in /imgs subdirectory
 3. run `node compile.js` on the command line to recompile the html and include the project
+4. add html snippet to main.js
 
 adding scripts:
 1. add js file to /scripts directory
 2. add path of js file to array in scripts/driver.js 
+
+adding skills:
+1. add image to imgs/dev_icons
+2. add image attribution to readme
+3. add html snippet to main.js
 
 ## Todo 
 
@@ -60,10 +69,8 @@ adding scripts:
 - [x] automatically generate landing pages w compile.js
 - [x] cite rest of images
 - [ ] replace project cards with new flex design
-- [ ] parallax effect with title
 - [ ] sort skills by different controls
 - [ ] rewrite skills section with new flex design
-- [ ] rewrite about paragraph
 - [ ] restructure images folder
 - [x] make footer disapear when content not all the way down
 - [ ] make screenshots folder

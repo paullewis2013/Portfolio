@@ -1,0 +1,10 @@
+{ 
+    "name": "Maze Solver",
+    "img_path": "../imgs/tn_maze.png",
+    "description": "<ul><li>Procedurally generates 8x8 mazes</li><li>Renders mazes into 3D scenes using webGL</li><li>Automatically finds shortest path through maze</li></ul>",
+    "start_date": "",
+    "num_lines": "",
+    "repo_link": "https://github.com/paullewis2013/MazeSolver/",
+    "landing_page_link": "html/maze.html",
+    "gh_pages_link": "https://paullewis2013.github.io/MazeSolver/"
+}

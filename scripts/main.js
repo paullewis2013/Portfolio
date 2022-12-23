@@ -199,6 +199,23 @@ var projectsHTML = `
 
     </div><br>
 
+    <div class="row projectrow">
+        
+        <div class="col-3">
+            <a href="html/maze.html" target="_blank">
+                <img src="imgs/tn_maze.png" alt="Maze Image" class="thumbnail">
+            </a>
+        </div>
+        
+        <div class="col-9">
+            <h5>Maze Solver</h5>
+            <li>Procedurally generates 8x8 mazes</li>
+            <li>Renders mazes into 3D scenes using webGL</li>
+            <li>Automatically finds shortest path through maze</li>
+        </div>
+
+    </div><br>
+
 
 </div>`;
 
@@ -208,9 +225,13 @@ var aboutHTML = `
 <img src="imgs/paul_circle.png" id="aboutImage">
 
 <h4 style="text-align:center">
-Hi, welcome to my portfolio. My name is Paul and I’m a full stack software developer with a Bachelor's degree in Computer Science. 
-I use this website to showcase my personal projects and highlight some of the technologies I’ve worked with. 
-If you're interested in getting in touch, feel free to connect with me using the links in the upper right corner.
+    Hi, welcome to my portfolio. My name is Paul and I’m a full stack software developer with a Bachelor's degree in Computer Science. 
+    I use this website to showcase my personal projects and highlight some of the technologies I’ve worked with.
+</h4>
+
+<h4 style="text-align:center">
+    In my career, I hope to apply my skills towards addressing real world problems like climate change, transportation, and inequality.
+    If you're interested in getting in touch, feel free to connect with me using the links in the upper right corner.
 </h4>
 </div>
 
@@ -244,6 +265,7 @@ var skillsHTML = `
     <p class="skill_list_category">JavaScript Stack (Misc.)</p>
     <ul class="skill_list">
         <li><img src="imgs/dev_icons/d3js-original.svg" class="lang_icon"> <p>D3.js</p></li>
+        <li><img src="imgs/dev_icons/express-original.svg" class="lang_icon"> <p>Express</p></li>
         <li><img src="imgs/dev_icons/nodejs-plain.svg" class="lang_icon"> <p>Node.js</p></li>
         <li><img src="imgs/dev_icons/npm-original.svg" class="lang_icon"> <p>NPM</p></li>
         <li><img src="imgs/dev_icons/electron-original.svg" class="lang_icon"> <p>Electron</p></li>
@@ -261,6 +283,7 @@ var skillsHTML = `
         <li><img src="imgs/dev_icons/css3-plain.svg" class="lang_icon"> <p>CSS</p> </li>
         <li><img src="imgs/dev_icons/bootstrap-plain.svg" class="lang_icon"> <p>Bootstrap</p> </li>
         <li><img src="imgs/dev_icons/gimp-plain.svg" class="lang_icon"> <p>Gimp</p> </li>
+        <li><img src="imgs/dev_icons/stability_ai.png" class="lang_icon"> <p>Stable Diffusion</p> </li>
     </ul>
 </div>
 
