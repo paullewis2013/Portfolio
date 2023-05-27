@@ -1,3 +1,5 @@
+import * as THREE from 'three';
+
 const scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
@@ -33,7 +35,7 @@ const material = new THREE.MeshPhongMaterial({
 // create dice
 var diceArr = []
 for(let i = 0; i < 20; i++){
-    roll = Math.random();
+    let roll = Math.random();
 
     if(roll>0.8){
         diceArr[i] = new THREE.Mesh( geometry_d4, material );
@@ -63,7 +65,7 @@ camera.rotation.x = 0;
 
 const skyColor =    0xdc322f; 
 const groundColor = 0x6c71c4;
-const intensity = 0.25;
+const intensity = 0.05;
 const light = new THREE.HemisphereLight(skyColor, groundColor, intensity);
 scene.add(light);
 
@@ -72,6 +74,22 @@ noise.seed(Math.random());
 
 // geometry for terrain
 const hexGeometry = new THREE.CylinderGeometry( 1, 1, 10, 6)
+
+function randColor(){
+
+    let colors = [
+        // 0xb58900,
+        0xcb4b16,
+        0xdc322f,
+        // 0xd33682,
+        // 0x6c71c4,
+        // 0x268bd2,
+        0x2aa198,
+        // 0x859900
+    ]
+
+    return colors[Math.floor(Math.random() * colors.length)]
+}
 
 for(let i = 0; i < 120; i++){
 
@@ -98,21 +116,6 @@ for(let i = 0; i < 120; i++){
     }
 }
 
-function randColor(){
-
-    colors = [
-        // 0xb58900,
-        0xcb4b16,
-        0xdc322f,
-        // 0xd33682,
-        // 0x6c71c4,
-        // 0x268bd2,
-        0x2aa198,
-        // 0x859900
-    ]
-
-    return colors[Math.floor(Math.random() * colors.length)]
-}
 
 var frameNum = 0    //used for keeping perlin noise consistent
 

@@ -2,7 +2,6 @@
     var scriptNames = [
         //add script names here
         "scripts/perlin.js",
-        "scripts/three.js",
         "scripts/main.js",
         "scripts/canvas.js",
     ];
@@ -10,6 +9,11 @@
         var script = document.createElement('script');
         script.src = scriptNames[i];
         script.async = false; // This is required for synchronous execution
+
+        if (scriptNames[i].includes("main.js") || scriptNames[i].includes("canvas.js")) {
+            script.type = "module";
+        }
+
         document.body.appendChild(script);
     }
 })();
