@@ -1,3 +1,6 @@
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
 const scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
@@ -32,29 +35,62 @@ const material = new THREE.MeshPhongMaterial({
 
 // create dice
 var diceArr = []
-for(let i = 0; i < 20; i++){
-    roll = Math.random();
+const loader = new GLTFLoader();
 
-    if(roll>0.8){
-        diceArr[i] = new THREE.Mesh( geometry_d4, material );
-    }else if(roll>0.6){
-        diceArr[i] = new THREE.Mesh( geometry_d6, material );
-    }else if(roll>0.4){
-        diceArr[i] = new THREE.Mesh( geometry_d8, material );
-    }else if (roll > 0.2){
-        diceArr[i] = new THREE.Mesh( geometry_d12, material );
-    }else {
-        diceArr[i] = new THREE.Mesh( geometry_d20, material );
-    }
-
+const moveDice = (dice) => {
     //arrange offscreen
-    diceArr[i].position.x = -45 + -i * 5
-    diceArr[i].position.y = 12 + Math.random() * 28;
-    diceArr[i].position.z = -20 + Math.random() * 40;
-    diceArr[i].rotation.x = Math.random();
-    diceArr[i].rotation.y = Math.random();
+    const xpos = Math.floor(Math.random() * 20)
+    dice.position.x = -45 + -xpos * 5
+    dice.position.y = 12 + Math.random() * 28;
+    dice.position.z = -20 + Math.random() * 40;
+    dice.rotation.x = Math.random();
+    dice.rotation.y = Math.random();
+    scene.add( dice );
 
-    scene.add( diceArr[i] );
+}
+
+
+for(let i = 0; i < 20; i++){
+    const roll = Math.random();
+    const lookup = parseInt(roll * 6)
+    switch(lookup) {
+        case 0:
+            diceArr[i] = new THREE.Mesh( geometry_d4, material );
+            moveDice(diceArr[i])
+            break;
+        case 1:
+            diceArr[i] = new THREE.Mesh( geometry_d6, material );
+            moveDice(diceArr[i])
+            break;
+        case 2:
+            diceArr[i] = new THREE.Mesh( geometry_d8, material );
+            moveDice(diceArr[i])
+            break;
+        case 3:
+            diceArr[i] = new THREE.Mesh( geometry_d12, material );
+            moveDice(diceArr[i])
+            break;
+        case 4:
+            diceArr[i] = new THREE.Mesh( geometry_d20, material );
+            moveDice(diceArr[i])
+            break;
+        case 5:
+            loader.load(
+                'imgs/cow.gltf',
+                (gltf) => {
+                    console.log(gltf);
+                    //arrange offscreen
+                    gltf.scene.position.x = -45 + -i * 5;
+                    gltf.scene.position.y = 12 + Math.random() * 28;
+                    gltf.scene.position.z = -20 + Math.random() * 40;
+                    gltf.scene.rotation.x = Math.random();
+                    gltf.scene.rotation.y = Math.random();
+                    scene.add( gltf.scene );
+                    diceArr[i] = gltf.scene;
+                }
+            );
+            break;
+    }
 }
 
 camera.position.z = 35;
@@ -63,7 +99,7 @@ camera.rotation.x = 0;
 
 const skyColor =    0xdc322f; 
 const groundColor = 0x6c71c4;
-const intensity = 0.25;
+const intensity = 0.05;
 const light = new THREE.HemisphereLight(skyColor, groundColor, intensity);
 scene.add(light);
 
@@ -72,6 +108,22 @@ noise.seed(Math.random());
 
 // geometry for terrain
 const hexGeometry = new THREE.CylinderGeometry( 1, 1, 10, 6)
+
+function randColor(){
+
+    let colors = [
+        // 0xb58900,
+        0xcb4b16,
+        0xdc322f,
+        // 0xd33682,
+        // 0x6c71c4,
+        // 0x268bd2,
+        0x2aa198,
+        // 0x859900
+    ]
+
+    return colors[Math.floor(Math.random() * colors.length)]
+}
 
 for(let i = 0; i < 120; i++){
 
@@ -98,21 +150,6 @@ for(let i = 0; i < 120; i++){
     }
 }
 
-function randColor(){
-
-    colors = [
-        // 0xb58900,
-        0xcb4b16,
-        0xdc322f,
-        // 0xd33682,
-        // 0x6c71c4,
-        // 0x268bd2,
-        0x2aa198,
-        // 0x859900
-    ]
-
-    return colors[Math.floor(Math.random() * colors.length)]
-}
 
 var frameNum = 0    //used for keeping perlin noise consistent
 
@@ -122,6 +159,9 @@ const animate = function () {
 
     //go through each dice
     for(let i = 0; i < diceArr.length; i++){
+        // skip if dice is not loaded yet
+        if(!diceArr[i])
+            continue;
 
         //move to the right
         diceArr[i].rotation.x += 0.02;

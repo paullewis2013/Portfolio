@@ -1,3 +1,5 @@
+import * as THREE from 'three';
+
 //fixes issue with refreshing page
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
@@ -87,10 +89,12 @@ var projectsHTML = `
     </div>
 
     <div class="col-9">
-        <h5>Mandelbrot Set</h5>
-        <li>Plotted the mandelbrot set with color gradient corresponding to time to diverge</li>
-        <li>Added ability to zoom in on interesting areas of mandelbrot set to view them in greater detail</li>
-        <li>Created ability to sync up animation to match the beats per minute of a song</li>
+        <h5>Moodelbrot Set</h5>
+        <ul>
+            <li>Plotted the Moodlebrot set with color gradient corresponding to time to diverge</li>
+            <li>Added ability to zoom in on interesting cow-spots of Moo-dlebrot set to view them in greater detail</li>
+            <li>Created ability to sync up cow-mation to match the beats per minute of a moo-sical tune</li>
+        </ul>
     </div>
 
     </div><br>
@@ -104,10 +108,10 @@ var projectsHTML = `
     </div>
 
     <div class="col-9">
-        <h5>Cellular Automata Study</h5>
-        <li>Implemented Conway's Game of Life in JavaScript</li>
-        <li>3D visualization displays how simulation has evolved over time</li>
-        <li>Fine tuned starting conditions for better results</li>
+        <h5>Cellular Bovine-mata Study</h5>
+        <li>Implemented Cow-way's Game of Livestock in JavaScript</li>
+        <li>3D visualization displays how cattle simulation has evolved over time</li>
+        <li>Fine-tuned starting conditions for better moo-sults</li>
     </div>
 
     </div><br>
@@ -121,10 +125,10 @@ var projectsHTML = `
     </div>
 
     <div class="col-9">
-        <h5>Sudoku Solver</h5>
-        <li>Solves Sudoku puzzles using backtracking algorithm</li>
-        <li>Allows user to input custom sudoku puzzles to solve</li>
-        <li>Visualization of search space shown on right</li>
+        <h5>Moo-doku Solver</h5>
+        <li>Solves Moo-doku puzzles using backtracking algorithm</li>
+        <li>Allows users to input custom moo-doku puzzles to solve</li>
+        <li>Visualization of pasture search space shown on right</li>
     </div>
 
     </div><br>
@@ -138,10 +142,10 @@ var projectsHTML = `
     </div>
     
     <div class="col-9">
-        <h5>Perlin Noise Study</h5>
-        <li>Displays 3D perlin noise on a 64x64 array of spheres</li>
-        <li>Adjustable sliders allow user to control parameters of Perlin noise</li>
-        <li>Same effect as used in Portfolio background</li>
+        <h5>Moo-perlin Noise Study</h5>
+        <li>Displays 3D perlin noise on a 64x64 herd of cow-shaped spheres</li>
+        <li>Adjustable udder-like sliders allow user to control parameters of Perlin noise</li>
+        <li>Same pasture-inspired effect as used in Cow-folio background</li>
     </div>
 
     
@@ -156,10 +160,10 @@ var projectsHTML = `
         </div>
         
         <div class="col-9">
-            <h5>Chord Identifier</h5>
-            <li>Custom input interface for selecting a musical key and inputting notes on a musical staff</li>
-            <li>Calculates possible chord names from a set of given notes on staff</li>
-            <li>Bauhaus inspired design and color palette</li>
+            <h5>Cow Chord Identifier</h5>
+            <li>Custom udder-input interface for selecting a moosical key and inputting notes on a musical staff</li>
+            <li>Calculates possible cow chord names from a set of given notes on staff</li>
+            <li>Barnhaus inspired design and cowlor palette</li>
         </div>
 
         
@@ -174,10 +178,10 @@ var projectsHTML = `
         </div>
         
         <div class="col-9">
-            <h5>Catan Clone (in development)</h5>
-            <li>An interactive version of the board game Catan</li>
-            <li>AI controlled players capable of placing opening settlements competitively</li>
-            <li>Analysis of game data in real time</li>
+             <h5>Cattle-ran Clone (in development)</h5>
+            <li>An interactive version of the board game Catan with a bovine twist</li>
+            <li>AI controlled players capable of placing opening cow-settlements competitively</li>
+            <li>Analysis of game data in real time, including udderly important cow stats</li>
         </div>
 
     </div><br>
@@ -191,10 +195,10 @@ var projectsHTML = `
         </div>
         
         <div class="col-9">
-            <h5>Chrome New Tab Page</h5>
-            <li>Built a Chrome extension to replace the default new tab page in browser</li>
-            <li>Pulls curated images from Unsplash from several collections</li>
-            <li>Uses local storage to customize experience</li>
+            <h5>Cow-themed Chrome New Tab Page</h5>
+            <li>Developed a Chrome extension to replace the default new tab page in browser with cow-inspired imagery</li>
+            <li>Features curated cow images from Unsplash sourced from various collections</li>
+            <li>Utilizes local storage to personalize the cow-tastic experience</li>
         </div>
 
     </div><br>
@@ -208,10 +212,10 @@ var projectsHTML = `
         </div>
         
         <div class="col-9">
-            <h5>Maze Solver</h5>
-            <li>Procedurally generates 8x8 mazes</li>
-            <li>Renders mazes into 3D scenes using webGL</li>
-            <li>Automatically finds shortest path through maze</li>
+            <h5>Cow-inspired Maze Solver</h5>
+            <li>Procedurally generates 8x8 cow mazes</li>
+            <li>Renders cow mazes into 3D barnyard scenes using webGL</li>
+            <li>Automatically finds shortest path through cow maze</li>
         </div>
 
     </div><br>
