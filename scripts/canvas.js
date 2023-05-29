@@ -35,13 +35,6 @@ const material = new THREE.MeshPhongMaterial({
 
 // create dice
 var diceArr = []
-const diceFactory = (i) => {
-    switch(i) {
-        case 5:
-            
-    }
-}
-
 const loader = new GLTFLoader();
 
 const moveDice = (dice) => {
