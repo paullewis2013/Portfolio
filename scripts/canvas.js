@@ -14,6 +14,15 @@ window.addEventListener("resize", function() {
     camera.rotation.x = 0;
 });
 
+var resetToBlack = false;
+window.addEventListener("keydown", function(e) {
+    
+    //if spacebar is pressed
+    if(e.keyCode == 32){
+        resetToBlack = true;
+    }
+});
+
 //geometry for dice
 const geometry_d4 = new THREE.TetrahedronGeometry(2, 0);
 const geometry_d6 = new THREE.BoxGeometry(2, 2, 2); 
@@ -148,8 +157,17 @@ const animate = function () {
                 let tempMat = new THREE.MeshLambertMaterial( { color: tempColor} );
                 terrainArr[i][j].material = tempMat
             }
+            
+            //triggered by spacebar press
+            else if(resetToBlack){
+                let tempColor = 0x000000
+                let tempMat = new THREE.MeshLambertMaterial( { color: tempColor} );
+                terrainArr[i][j].material = tempMat
+            }
         }
     }
+
+    resetToBlack = false;
 
     renderer.render( scene, camera );
     requestAnimationFrame( animate );
