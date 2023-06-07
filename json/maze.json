@@ -1,6 +1,6 @@
 { 
     "name": "Maze Solver",
-    "img_path": "../imgs/tn_maze.png",
+    "img_path": "../imgs/thumbnails/tn_maze.png",
     "description": "<ul><li>Procedurally generates 8x8 mazes</li><li>Renders mazes into 3D scenes using webGL</li><li>Automatically finds shortest path through maze</li></ul>",
     "start_date": "",
     "num_lines": "",

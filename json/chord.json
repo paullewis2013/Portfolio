@@ -1,6 +1,6 @@
 { 
     "name": "Chord Identifier",
-    "img_path": "../imgs/tn_chord.png",
+    "img_path": "../imgs/thumbnails/tn_chord.png",
     "description": "<ul><li>Custom input interface for selecting a musical key and inputting notes on a musical staff</li><li>Calculates possible chord names from a set of given notes on staff</li><li>Bauhaus inspired design and color palette</li></ul>",
     "start_date": "",
     "num_lines": "",

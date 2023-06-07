@@ -1,6 +1,6 @@
 { 
     "name": "Conway's Game of Life",
-    "img_path": "../imgs/tn_conway.png",
+    "img_path": "../imgs/thumbnails/tn_conway.png",
     "description": "<ul><li>Implemented Conway's Game of Life in JavaScript</li><li>3D visualization displays how simulation has evolved over time</li><li>Fine tuned starting conditions for better results</li></ul>",
     "start_date": "",
     "num_lines": "",

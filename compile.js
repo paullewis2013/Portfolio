@@ -72,7 +72,7 @@ for (const filePath of walkSync('json')) {
             <p>Source code: <a href="${obj.repo_link}">Github Repository</a></p>
 
         <!-- return to portfolio link -->
-            <a href="../index.html">Return to Portfolio</a>
+            <a href="#" onclick="window.close()">Close tab</a>
 
         </div>
 
@@ -81,12 +81,12 @@ for (const filePath of walkSync('json')) {
         <div class="footer-row">
             <!-- right column -->
             <div class="footer-col">
-                <p class="footer-text">Portfolio Version: 1.1.3</p>
+                <p class="footer-text">Portfolio Version: 1.2.0</p>
             </div>
 
             <!-- middle column -->
             <div class="footer-col">
-                <p class="footer-text">Paul Lewis, 2022</p>
+                <p class="footer-text">Paul Lewis, 2023</p>
             </div>
 
         </div>

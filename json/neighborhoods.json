@@ -1,0 +1,10 @@
+{ 
+    "name": "Pittsburgh Neighborhoods",
+    "img_path": "../imgs/thumbnails/tn_neighborhoods.png",
+    "description": "<ul><li> Pulled neighborhoods data in geoJSON format from Allegheny county </li><li> Rendered neighborhoods on top of satellite map of Pittsburgh </li><li> Turned map into checklist for tracking visited neighborhoods </li></ul>",
+    "start_date": "",
+    "num_lines": "",
+    "repo_link": "https://github.com/paullewis2013/Pitt-Neighborhoods/",
+    "landing_page_link": "html/Neighborhoods.html",
+    "gh_pages_link": "https://paullewis2013.github.io/Pitt-Neighborhoods/"
+}

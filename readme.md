@@ -57,6 +57,11 @@ adding skills:
 2. add image attribution to readme
 3. add html snippet to main.js
 
+git branch names [x.y.z]
+x is a major update such as switching frameworks 
+y is a minor version like when I add new projects and work on the website in the mean time
+z is a tiny change that's stable
+
 ## Todo 
 
 - [x] replace rectangular prisms in animation with hexagonal prisms

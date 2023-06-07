@@ -1,0 +1,10 @@
+{ 
+    "name": "Vocabulary estimate",
+    "img_path": "../imgs/thumbnails/tn_vocab.png",
+    "description": "<ul><li> Pulled and cleaned datasets for language frequency in different target languages </li><li> Built program to estimate total vocabulary known based on results from small sample size </li><li> Outputs results with statistical formulas and margin or error </li></ul>",
+    "start_date": "",
+    "num_lines": "",
+    "repo_link": "https://github.com/paullewis2013/VocabEstimate",
+    "landing_page_link": "html/vocab.html",
+    "gh_pages_link": "#"
+}
