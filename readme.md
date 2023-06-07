@@ -83,3 +83,4 @@ z is a tiny change that's stable
 - [ ] animations library
 - [ ] keep footer consistent across pages
 - [x] switch to todo.md checklist
+- [ ] clean html folder before building
