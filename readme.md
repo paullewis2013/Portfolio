@@ -76,7 +76,7 @@ z is a tiny change that's stable
 - [ ] replace project cards with new flex design
 - [ ] sort skills by different controls
 - [ ] rewrite skills section with new flex design
-- [ ] restructure images folder
+- [x] restructure images folder
 - [x] make footer disapear when content not all the way down
 - [ ] make screenshots folder
 - [x] fix about image spacing
