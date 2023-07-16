@@ -250,6 +250,21 @@ var projectsHTML = `
 
     </div><br>
 
+    <div class="row projectrow">
+        
+        <div class="col-3">
+            <a href="html/tarot.html" target="_blank">
+                <img src="imgs/thumbnails/tn_tarot.png" alt="tarot Image" class="thumbnail">
+            </a>
+        </div>
+        
+        <div class="col-9">
+            <h5>Tarot Deck</h5>
+            <li> Created a small app to randomly draw tarot cards </li>
+        </div>
+
+    </div><br>
+
 
 </div>`;
 

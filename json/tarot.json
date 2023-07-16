@@ -1,0 +1,10 @@
+{ 
+    "name": "Tarot Deck",
+    "img_path": "../imgs/thumbnails/tn_tarot.png",
+    "description": "<ul><li> Created a small app to randomly draw tarot cards </li></ul>",
+    "start_date": "",
+    "num_lines": "",
+    "repo_link": "https://github.com/paullewis2013/tarot",
+    "landing_page_link": "html/tarot.html",
+    "gh_pages_link": "https://paullewis2013.github.io/tarot/"
+}
